@@ -1,0 +1,2672 @@
+{
+    "dataset_name": "AVT-VQDB-UHD-1_1",
+    "SRC_names": [
+        "bigbuck_bunny_8bit",
+        "american_football_harmonic",
+        "surfing_sony_8bit",
+        "vegetables_tuil",
+        "water_netflix",
+        "cutting_orange_tuil"
+    ],
+    "PVS_bitrates": [
+        200.0,
+        750.0,
+        2000.0,
+        7500.0,
+        15000.0,
+        40000.0
+    ],
+    "PVS_encoders": [
+        "vp9",
+        "h264",
+        "hevc"
+    ],
+    "PVS_resolutions": [
+        "640x360",
+        "1920x1080",
+        "3840x2160",
+        "1280x720"
+    ],
+    "scores": [
+        {
+            "PVS": {
+                "PVS_ID": "american_football_harmonic_200kbps_360p_59.94fps_h264",
+                "SRC": "american_football_harmonic",
+                "bitrate": 200.0,
+                "width": 640,
+                "height": 360,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 1.0,
+            "CI": 0.0
+        },
+        {
+            "PVS": {
+                "PVS_ID": "american_football_harmonic_750kbps_360p_59.94fps_h264",
+                "SRC": "american_football_harmonic",
+                "bitrate": 750.0,
+                "width": 640,
+                "height": 360,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 2.1379310344827602,
+            "CI": 0.252233857040013
+        },
+        {
+            "PVS": {
+                "PVS_ID": "american_football_harmonic_750kbps_720p_59.94fps_h264",
+                "SRC": "american_football_harmonic",
+                "bitrate": 750.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 1.6551724137931,
+            "CI": 0.201139292353142
+        },
+        {
+            "PVS": {
+                "PVS_ID": "american_football_harmonic_2000kbps_720p_59.94fps_h264",
+                "SRC": "american_football_harmonic",
+                "bitrate": 2000.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 3.03448275862069,
+            "CI": 0.26608227322496497
+        },
+        {
+            "PVS": {
+                "PVS_ID": "american_football_harmonic_2000kbps_1080p_59.94fps_h264",
+                "SRC": "american_football_harmonic",
+                "bitrate": 2000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 2.3448275862069,
+            "CI": 0.262377930908895
+        },
+        {
+            "PVS": {
+                "PVS_ID": "american_football_harmonic_7500kbps_1080p_59.94fps_h264",
+                "SRC": "american_football_harmonic",
+                "bitrate": 7500.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 4.3448275862068995,
+            "CI": 0.243681056700754
+        },
+        {
+            "PVS": {
+                "PVS_ID": "american_football_harmonic_15000kbps_1080p_59.94fps_h264",
+                "SRC": "american_football_harmonic",
+                "bitrate": 15000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 4.55172413793103,
+            "CI": 0.20831085226920001
+        },
+        {
+            "PVS": {
+                "PVS_ID": "american_football_harmonic_7500kbps_2160p_59.94fps_h264",
+                "SRC": "american_football_harmonic",
+                "bitrate": 7500.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 3.24137931034483,
+            "CI": 0.25093701627786497
+        },
+        {
+            "PVS": {
+                "PVS_ID": "american_football_harmonic_15000kbps_2160p_59.94fps_h264",
+                "SRC": "american_football_harmonic",
+                "bitrate": 15000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 4.37931034482759,
+            "CI": 0.226326757497312
+        },
+        {
+            "PVS": {
+                "PVS_ID": "american_football_harmonic_40000kbps_2160p_59.94fps_h264",
+                "SRC": "american_football_harmonic",
+                "bitrate": 40000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 4.79310344827586,
+            "CI": 0.178813009715042
+        },
+        {
+            "PVS": {
+                "PVS_ID": "american_football_harmonic_200kbps_360p_59.94fps_hevc",
+                "SRC": "american_football_harmonic",
+                "bitrate": 200.0,
+                "width": 640,
+                "height": 360,
+                "fps": 59.94,
+                "encoder": "hevc",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 1.0689655172413801,
+            "CI": 0.09385727853711097
+        },
+        {
+            "PVS": {
+                "PVS_ID": "american_football_harmonic_750kbps_360p_59.94fps_hevc",
+                "SRC": "american_football_harmonic",
+                "bitrate": 750.0,
+                "width": 640,
+                "height": 360,
+                "fps": 59.94,
+                "encoder": "hevc",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 1.89655172413793,
+            "CI": 0.177898359165929
+        },
+        {
+            "PVS": {
+                "PVS_ID": "american_football_harmonic_750kbps_720p_59.94fps_hevc",
+                "SRC": "american_football_harmonic",
+                "bitrate": 750.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 59.94,
+                "encoder": "hevc",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 1.7931034482758603,
+            "CI": 0.22560482022737305
+        },
+        {
+            "PVS": {
+                "PVS_ID": "american_football_harmonic_2000kbps_720p_59.94fps_hevc",
+                "SRC": "american_football_harmonic",
+                "bitrate": 2000.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 59.94,
+                "encoder": "hevc",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 2.931034482758621,
+            "CI": 0.256084978344715
+        },
+        {
+            "PVS": {
+                "PVS_ID": "american_football_harmonic_2000kbps_1080p_59.94fps_hevc",
+                "SRC": "american_football_harmonic",
+                "bitrate": 2000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 59.94,
+                "encoder": "hevc",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 2.96551724137931,
+            "CI": 0.26608227322496497
+        },
+        {
+            "PVS": {
+                "PVS_ID": "american_football_harmonic_7500kbps_1080p_59.94fps_hevc",
+                "SRC": "american_football_harmonic",
+                "bitrate": 7500.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 59.94,
+                "encoder": "hevc",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 4.24137931034483,
+            "CI": 0.20987125499211198
+        },
+        {
+            "PVS": {
+                "PVS_ID": "american_football_harmonic_15000kbps_1080p_59.94fps_hevc",
+                "SRC": "american_football_harmonic",
+                "bitrate": 15000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 59.94,
+                "encoder": "hevc",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 4.41379310344828,
+            "CI": 0.228478882848094
+        },
+        {
+            "PVS": {
+                "PVS_ID": "american_football_harmonic_7500kbps_2160p_59.94fps_hevc",
+                "SRC": "american_football_harmonic",
+                "bitrate": 7500.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 59.94,
+                "encoder": "hevc",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 4.31034482758621,
+            "CI": 0.24031047864728305
+        },
+        {
+            "PVS": {
+                "PVS_ID": "american_football_harmonic_15000kbps_2160p_59.94fps_hevc",
+                "SRC": "american_football_harmonic",
+                "bitrate": 15000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 59.94,
+                "encoder": "hevc",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 4.68965517241379,
+            "CI": 0.171359162136071
+        },
+        {
+            "PVS": {
+                "PVS_ID": "american_football_harmonic_40000kbps_2160p_59.94fps_hevc",
+                "SRC": "american_football_harmonic",
+                "bitrate": 40000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 59.94,
+                "encoder": "hevc",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 4.79310344827586,
+            "CI": 0.150041231700206
+        },
+        {
+            "PVS": {
+                "PVS_ID": "american_football_harmonic_200kbps_360p_59.94fps_vp9",
+                "SRC": "american_football_harmonic",
+                "bitrate": 200.0,
+                "width": 640,
+                "height": 360,
+                "fps": 59.94,
+                "encoder": "vp9",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 1.27586206896552,
+            "CI": 0.16554867849501098
+        },
+        {
+            "PVS": {
+                "PVS_ID": "american_football_harmonic_750kbps_360p_59.94fps_vp9",
+                "SRC": "american_football_harmonic",
+                "bitrate": 750.0,
+                "width": 640,
+                "height": 360,
+                "fps": 59.94,
+                "encoder": "vp9",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 2.24137931034483,
+            "CI": 0.302249151922959
+        },
+        {
+            "PVS": {
+                "PVS_ID": "american_football_harmonic_750kbps_720p_59.94fps_vp9",
+                "SRC": "american_football_harmonic",
+                "bitrate": 750.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 59.94,
+                "encoder": "vp9",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 2.55172413793103,
+            "CI": 0.267915238224388
+        },
+        {
+            "PVS": {
+                "PVS_ID": "american_football_harmonic_2000kbps_720p_59.94fps_vp9",
+                "SRC": "american_football_harmonic",
+                "bitrate": 2000.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 59.94,
+                "encoder": "vp9",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 3.2758620689655205,
+            "CI": 0.21524360017876892
+        },
+        {
+            "PVS": {
+                "PVS_ID": "american_football_harmonic_2000kbps_1080p_59.94fps_vp9",
+                "SRC": "american_football_harmonic",
+                "bitrate": 2000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 59.94,
+                "encoder": "vp9",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 3.51724137931034,
+            "CI": 0.31700158488872404
+        },
+        {
+            "PVS": {
+                "PVS_ID": "american_football_harmonic_7500kbps_1080p_59.94fps_vp9",
+                "SRC": "american_football_harmonic",
+                "bitrate": 7500.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 59.94,
+                "encoder": "vp9",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 4.24137931034483,
+            "CI": 0.231317238668459
+        },
+        {
+            "PVS": {
+                "PVS_ID": "american_football_harmonic_15000kbps_1080p_59.94fps_vp9",
+                "SRC": "american_football_harmonic",
+                "bitrate": 15000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 59.94,
+                "encoder": "vp9",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 4.37931034482759,
+            "CI": 0.24634431674484397
+        },
+        {
+            "PVS": {
+                "PVS_ID": "american_football_harmonic_7500kbps_2160p_59.94fps_vp9",
+                "SRC": "american_football_harmonic",
+                "bitrate": 7500.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 59.94,
+                "encoder": "vp9",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 4.2758620689655205,
+            "CI": 0.273340394229664
+        },
+        {
+            "PVS": {
+                "PVS_ID": "american_football_harmonic_15000kbps_2160p_59.94fps_vp9",
+                "SRC": "american_football_harmonic",
+                "bitrate": 15000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 59.94,
+                "encoder": "vp9",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 4.41379310344828,
+            "CI": 0.206738672420707
+        },
+        {
+            "PVS": {
+                "PVS_ID": "american_football_harmonic_40000kbps_2160p_59.94fps_vp9",
+                "SRC": "american_football_harmonic",
+                "bitrate": 40000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 59.94,
+                "encoder": "vp9",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 4.79310344827586,
+            "CI": 0.150041231700207
+        },
+        {
+            "PVS": {
+                "PVS_ID": "bigbuck_bunny_8bit_200kbps_360p_60.0fps_h264",
+                "SRC": "bigbuck_bunny_8bit",
+                "bitrate": 200.0,
+                "width": 640,
+                "height": 360,
+                "fps": 60.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 1.51724137931034,
+            "CI": 0.209092509245411
+        },
+        {
+            "PVS": {
+                "PVS_ID": "bigbuck_bunny_8bit_750kbps_360p_60.0fps_h264",
+                "SRC": "bigbuck_bunny_8bit",
+                "bitrate": 750.0,
+                "width": 640,
+                "height": 360,
+                "fps": 60.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 2.24137931034483,
+            "CI": 0.286169230709577
+        },
+        {
+            "PVS": {
+                "PVS_ID": "bigbuck_bunny_8bit_750kbps_720p_60.0fps_h264",
+                "SRC": "bigbuck_bunny_8bit",
+                "bitrate": 750.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 60.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 2.79310344827586,
+            "CI": 0.22560482022737305
+        },
+        {
+            "PVS": {
+                "PVS_ID": "bigbuck_bunny_8bit_2000kbps_720p_60.0fps_h264",
+                "SRC": "bigbuck_bunny_8bit",
+                "bitrate": 2000.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 60.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 3.4137931034482794,
+            "CI": 0.2483230177425161
+        },
+        {
+            "PVS": {
+                "PVS_ID": "bigbuck_bunny_8bit_2000kbps_1080p_60.0fps_h264",
+                "SRC": "bigbuck_bunny_8bit",
+                "bitrate": 2000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 60.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 3.3448275862069,
+            "CI": 0.262377930908895
+        },
+        {
+            "PVS": {
+                "PVS_ID": "bigbuck_bunny_8bit_7500kbps_1080p_60.0fps_h264",
+                "SRC": "bigbuck_bunny_8bit",
+                "bitrate": 7500.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 60.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 4.2758620689655205,
+            "CI": 0.29013219805954804
+        },
+        {
+            "PVS": {
+                "PVS_ID": "bigbuck_bunny_8bit_15000kbps_1080p_60.0fps_h264",
+                "SRC": "bigbuck_bunny_8bit",
+                "bitrate": 15000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 60.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 4.20689655172414,
+            "CI": 0.281571835611333
+        },
+        {
+            "PVS": {
+                "PVS_ID": "bigbuck_bunny_8bit_7500kbps_2160p_60.0fps_h264",
+                "SRC": "bigbuck_bunny_8bit",
+                "bitrate": 7500.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 60.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 4.48275862068965,
+            "CI": 0.209092509245411
+        },
+        {
+            "PVS": {
+                "PVS_ID": "bigbuck_bunny_8bit_15000kbps_2160p_60.0fps_h264",
+                "SRC": "bigbuck_bunny_8bit",
+                "bitrate": 15000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 60.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 4.58620689655172,
+            "CI": 0.206738672420707
+        },
+        {
+            "PVS": {
+                "PVS_ID": "bigbuck_bunny_8bit_40000kbps_2160p_60.0fps_h264",
+                "SRC": "bigbuck_bunny_8bit",
+                "bitrate": 40000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 60.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 4.86206896551724,
+            "CI": 0.127723578367887
+        },
+        {
+            "PVS": {
+                "PVS_ID": "bigbuck_bunny_8bit_200kbps_360p_60.0fps_hevc",
+                "SRC": "bigbuck_bunny_8bit",
+                "bitrate": 200.0,
+                "width": 640,
+                "height": 360,
+                "fps": 60.0,
+                "encoder": "hevc",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 1.58620689655172,
+            "CI": 0.18242575871032998
+        },
+        {
+            "PVS": {
+                "PVS_ID": "bigbuck_bunny_8bit_750kbps_360p_60.0fps_hevc",
+                "SRC": "bigbuck_bunny_8bit",
+                "bitrate": 750.0,
+                "width": 640,
+                "height": 360,
+                "fps": 60.0,
+                "encoder": "hevc",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 2.3448275862069,
+            "CI": 0.22342501239019602
+        },
+        {
+            "PVS": {
+                "PVS_ID": "bigbuck_bunny_8bit_750kbps_720p_60.0fps_hevc",
+                "SRC": "bigbuck_bunny_8bit",
+                "bitrate": 750.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 60.0,
+                "encoder": "hevc",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 2.8275862068965503,
+            "CI": 0.258620535015109
+        },
+        {
+            "PVS": {
+                "PVS_ID": "bigbuck_bunny_8bit_2000kbps_720p_60.0fps_hevc",
+                "SRC": "bigbuck_bunny_8bit",
+                "bitrate": 2000.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 60.0,
+                "encoder": "hevc",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 3.51724137931034,
+            "CI": 0.26852344613134305
+        },
+        {
+            "PVS": {
+                "PVS_ID": "bigbuck_bunny_8bit_2000kbps_1080p_60.0fps_hevc",
+                "SRC": "bigbuck_bunny_8bit",
+                "bitrate": 2000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 60.0,
+                "encoder": "hevc",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 3.7241379310344795,
+            "CI": 0.21524360017876892
+        },
+        {
+            "PVS": {
+                "PVS_ID": "bigbuck_bunny_8bit_7500kbps_1080p_60.0fps_hevc",
+                "SRC": "bigbuck_bunny_8bit",
+                "bitrate": 7500.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 60.0,
+                "encoder": "hevc",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 4.20689655172414,
+            "CI": 0.264236593560201
+        },
+        {
+            "PVS": {
+                "PVS_ID": "bigbuck_bunny_8bit_15000kbps_1080p_60.0fps_hevc",
+                "SRC": "bigbuck_bunny_8bit",
+                "bitrate": 15000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 60.0,
+                "encoder": "hevc",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 4.20689655172414,
+            "CI": 0.264236593560201
+        },
+        {
+            "PVS": {
+                "PVS_ID": "bigbuck_bunny_8bit_7500kbps_2160p_60.0fps_hevc",
+                "SRC": "bigbuck_bunny_8bit",
+                "bitrate": 7500.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 60.0,
+                "encoder": "hevc",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 4.72413793103448,
+            "CI": 0.16554867849501098
+        },
+        {
+            "PVS": {
+                "PVS_ID": "bigbuck_bunny_8bit_15000kbps_2160p_60.0fps_hevc",
+                "SRC": "bigbuck_bunny_8bit",
+                "bitrate": 15000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 60.0,
+                "encoder": "hevc",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 4.75862068965517,
+            "CI": 0.15850079244436202
+        },
+        {
+            "PVS": {
+                "PVS_ID": "bigbuck_bunny_8bit_40000kbps_2160p_60.0fps_hevc",
+                "SRC": "bigbuck_bunny_8bit",
+                "bitrate": 40000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 60.0,
+                "encoder": "hevc",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 4.82758620689655,
+            "CI": 0.13991416999474202
+        },
+        {
+            "PVS": {
+                "PVS_ID": "bigbuck_bunny_8bit_200kbps_360p_60.0fps_vp9",
+                "SRC": "bigbuck_bunny_8bit",
+                "bitrate": 200.0,
+                "width": 640,
+                "height": 360,
+                "fps": 60.0,
+                "encoder": "vp9",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 1.48275862068966,
+            "CI": 0.209092509245411
+        },
+        {
+            "PVS": {
+                "PVS_ID": "bigbuck_bunny_8bit_750kbps_360p_60.0fps_vp9",
+                "SRC": "bigbuck_bunny_8bit",
+                "bitrate": 750.0,
+                "width": 640,
+                "height": 360,
+                "fps": 60.0,
+                "encoder": "vp9",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 2.1379310344827602,
+            "CI": 0.252233857040013
+        },
+        {
+            "PVS": {
+                "PVS_ID": "bigbuck_bunny_8bit_750kbps_720p_60.0fps_vp9",
+                "SRC": "bigbuck_bunny_8bit",
+                "bitrate": 750.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 60.0,
+                "encoder": "vp9",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 2.79310344827586,
+            "CI": 0.2456812083637289
+        },
+        {
+            "PVS": {
+                "PVS_ID": "bigbuck_bunny_8bit_2000kbps_720p_60.0fps_vp9",
+                "SRC": "bigbuck_bunny_8bit",
+                "bitrate": 2000.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 60.0,
+                "encoder": "vp9",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 3.51724137931034,
+            "CI": 0.301708938529713
+        },
+        {
+            "PVS": {
+                "PVS_ID": "bigbuck_bunny_8bit_2000kbps_1080p_60.0fps_vp9",
+                "SRC": "bigbuck_bunny_8bit",
+                "bitrate": 2000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 60.0,
+                "encoder": "vp9",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 3.75862068965517,
+            "CI": 0.231317238668459
+        },
+        {
+            "PVS": {
+                "PVS_ID": "bigbuck_bunny_8bit_7500kbps_1080p_60.0fps_vp9",
+                "SRC": "bigbuck_bunny_8bit",
+                "bitrate": 7500.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 60.0,
+                "encoder": "vp9",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 4.41379310344828,
+            "CI": 0.228478882848094
+        },
+        {
+            "PVS": {
+                "PVS_ID": "bigbuck_bunny_8bit_15000kbps_1080p_60.0fps_vp9",
+                "SRC": "bigbuck_bunny_8bit",
+                "bitrate": 15000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 60.0,
+                "encoder": "vp9",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 4.51724137931035,
+            "CI": 0.209092509245411
+        },
+        {
+            "PVS": {
+                "PVS_ID": "bigbuck_bunny_8bit_7500kbps_2160p_60.0fps_vp9",
+                "SRC": "bigbuck_bunny_8bit",
+                "bitrate": 7500.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 60.0,
+                "encoder": "vp9",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 4.48275862068965,
+            "CI": 0.28559860356011796
+        },
+        {
+            "PVS": {
+                "PVS_ID": "bigbuck_bunny_8bit_15000kbps_2160p_60.0fps_vp9",
+                "SRC": "bigbuck_bunny_8bit",
+                "bitrate": 15000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 60.0,
+                "encoder": "vp9",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 4.68965517241379,
+            "CI": 0.19704233981866198
+        },
+        {
+            "PVS": {
+                "PVS_ID": "bigbuck_bunny_8bit_40000kbps_2160p_60.0fps_vp9",
+                "SRC": "bigbuck_bunny_8bit",
+                "bitrate": 40000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 60.0,
+                "encoder": "vp9",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 4.75862068965517,
+            "CI": 0.15850079244436202
+        },
+        {
+            "PVS": {
+                "PVS_ID": "cutting_orange_tuil_200kbps_360p_59.94fps_h264",
+                "SRC": "cutting_orange_tuil",
+                "bitrate": 200.0,
+                "width": 640,
+                "height": 360,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 1.72413793103448,
+            "CI": 0.273340394229664
+        },
+        {
+            "PVS": {
+                "PVS_ID": "cutting_orange_tuil_750kbps_360p_59.94fps_h264",
+                "SRC": "cutting_orange_tuil",
+                "bitrate": 750.0,
+                "width": 640,
+                "height": 360,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 2.44827586206897,
+            "CI": 0.267915238224388
+        },
+        {
+            "PVS": {
+                "PVS_ID": "cutting_orange_tuil_750kbps_720p_59.94fps_h264",
+                "SRC": "cutting_orange_tuil",
+                "bitrate": 750.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 2.7241379310344795,
+            "CI": 0.29013219805954804
+        },
+        {
+            "PVS": {
+                "PVS_ID": "cutting_orange_tuil_2000kbps_720p_59.94fps_h264",
+                "SRC": "cutting_orange_tuil",
+                "bitrate": 2000.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 3.44827586206897,
+            "CI": 0.301167756141497
+        },
+        {
+            "PVS": {
+                "PVS_ID": "cutting_orange_tuil_2000kbps_1080p_59.94fps_h264",
+                "SRC": "cutting_orange_tuil",
+                "bitrate": 2000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 3.31034482758621,
+            "CI": 0.33840723034106
+        },
+        {
+            "PVS": {
+                "PVS_ID": "cutting_orange_tuil_7500kbps_1080p_59.94fps_h264",
+                "SRC": "cutting_orange_tuil",
+                "bitrate": 7500.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 3.96551724137931,
+            "CI": 0.26608227322496497
+        },
+        {
+            "PVS": {
+                "PVS_ID": "cutting_orange_tuil_15000kbps_1080p_59.94fps_h264",
+                "SRC": "cutting_orange_tuil",
+                "bitrate": 15000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 4.2758620689655205,
+            "CI": 0.21524360017876892
+        },
+        {
+            "PVS": {
+                "PVS_ID": "cutting_orange_tuil_7500kbps_2160p_59.94fps_h264",
+                "SRC": "cutting_orange_tuil",
+                "bitrate": 7500.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 4.20689655172414,
+            "CI": 0.313378590647174
+        },
+        {
+            "PVS": {
+                "PVS_ID": "cutting_orange_tuil_15000kbps_2160p_59.94fps_h264",
+                "SRC": "cutting_orange_tuil",
+                "bitrate": 15000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 4.20689655172414,
+            "CI": 0.281571835611333
+        },
+        {
+            "PVS": {
+                "PVS_ID": "cutting_orange_tuil_40000kbps_2160p_59.94fps_h264",
+                "SRC": "cutting_orange_tuil",
+                "bitrate": 40000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 4.37931034482759,
+            "CI": 0.298447124449532
+        },
+        {
+            "PVS": {
+                "PVS_ID": "cutting_orange_tuil_200kbps_360p_59.94fps_hevc",
+                "SRC": "cutting_orange_tuil",
+                "bitrate": 200.0,
+                "width": 640,
+                "height": 360,
+                "fps": 59.94,
+                "encoder": "hevc",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 1.44827586206897,
+            "CI": 0.20831085226920001
+        },
+        {
+            "PVS": {
+                "PVS_ID": "cutting_orange_tuil_750kbps_360p_59.94fps_hevc",
+                "SRC": "cutting_orange_tuil",
+                "bitrate": 750.0,
+                "width": 640,
+                "height": 360,
+                "fps": 59.94,
+                "encoder": "hevc",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 2.55172413793103,
+            "CI": 0.267915238224388
+        },
+        {
+            "PVS": {
+                "PVS_ID": "cutting_orange_tuil_750kbps_720p_59.94fps_hevc",
+                "SRC": "cutting_orange_tuil",
+                "bitrate": 750.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 59.94,
+                "encoder": "hevc",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 3.1724137931034497,
+            "CI": 0.292930066053273
+        },
+        {
+            "PVS": {
+                "PVS_ID": "cutting_orange_tuil_2000kbps_720p_59.94fps_hevc",
+                "SRC": "cutting_orange_tuil",
+                "bitrate": 2000.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 59.94,
+                "encoder": "hevc",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 3.68965517241379,
+            "CI": 0.276898119556923
+        },
+        {
+            "PVS": {
+                "PVS_ID": "cutting_orange_tuil_2000kbps_1080p_59.94fps_hevc",
+                "SRC": "cutting_orange_tuil",
+                "bitrate": 2000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 59.94,
+                "encoder": "hevc",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 3.79310344827586,
+            "CI": 0.32812781398297497
+        },
+        {
+            "PVS": {
+                "PVS_ID": "cutting_orange_tuil_7500kbps_1080p_59.94fps_hevc",
+                "SRC": "cutting_orange_tuil",
+                "bitrate": 7500.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 59.94,
+                "encoder": "hevc",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 4.103448275862069,
+            "CI": 0.245016305362807
+        },
+        {
+            "PVS": {
+                "PVS_ID": "cutting_orange_tuil_15000kbps_1080p_59.94fps_hevc",
+                "SRC": "cutting_orange_tuil",
+                "bitrate": 15000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 59.94,
+                "encoder": "hevc",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 4.13793103448276,
+            "CI": 0.21142014135556692
+        },
+        {
+            "PVS": {
+                "PVS_ID": "cutting_orange_tuil_7500kbps_2160p_59.94fps_hevc",
+                "SRC": "cutting_orange_tuil",
+                "bitrate": 7500.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 59.94,
+                "encoder": "hevc",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 4.3448275862068995,
+            "CI": 0.223425012390197
+        },
+        {
+            "PVS": {
+                "PVS_ID": "cutting_orange_tuil_15000kbps_2160p_59.94fps_hevc",
+                "SRC": "cutting_orange_tuil",
+                "bitrate": 15000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 59.94,
+                "encoder": "hevc",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 4.37931034482759,
+            "CI": 0.282150606696065
+        },
+        {
+            "PVS": {
+                "PVS_ID": "cutting_orange_tuil_40000kbps_2160p_59.94fps_hevc",
+                "SRC": "cutting_orange_tuil",
+                "bitrate": 40000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 59.94,
+                "encoder": "hevc",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 4.51724137931035,
+            "CI": 0.209092509245411
+        },
+        {
+            "PVS": {
+                "PVS_ID": "cutting_orange_tuil_200kbps_360p_59.94fps_vp9",
+                "SRC": "cutting_orange_tuil",
+                "bitrate": 200.0,
+                "width": 640,
+                "height": 360,
+                "fps": 59.94,
+                "encoder": "vp9",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 2.03448275862069,
+            "CI": 0.28330460172365995
+        },
+        {
+            "PVS": {
+                "PVS_ID": "cutting_orange_tuil_750kbps_360p_59.94fps_vp9",
+                "SRC": "cutting_orange_tuil",
+                "bitrate": 750.0,
+                "width": 640,
+                "height": 360,
+                "fps": 59.94,
+                "encoder": "vp9",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 2.41379310344828,
+            "CI": 0.283879840085948
+        },
+        {
+            "PVS": {
+                "PVS_ID": "cutting_orange_tuil_750kbps_720p_59.94fps_vp9",
+                "SRC": "cutting_orange_tuil",
+                "bitrate": 750.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 59.94,
+                "encoder": "vp9",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 3.3448275862069,
+            "CI": 0.32663291867321004
+        },
+        {
+            "PVS": {
+                "PVS_ID": "cutting_orange_tuil_2000kbps_720p_59.94fps_vp9",
+                "SRC": "cutting_orange_tuil",
+                "bitrate": 2000.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 59.94,
+                "encoder": "vp9",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 3.7241379310344795,
+            "CI": 0.321092097095737
+        },
+        {
+            "PVS": {
+                "PVS_ID": "cutting_orange_tuil_2000kbps_1080p_59.94fps_vp9",
+                "SRC": "cutting_orange_tuil",
+                "bitrate": 2000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 59.94,
+                "encoder": "vp9",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 3.62068965517241,
+            "CI": 0.342718324272141
+        },
+        {
+            "PVS": {
+                "PVS_ID": "cutting_orange_tuil_7500kbps_1080p_59.94fps_vp9",
+                "SRC": "cutting_orange_tuil",
+                "bitrate": 7500.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 59.94,
+                "encoder": "vp9",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 4.06896551724138,
+            "CI": 0.290693925977628
+        },
+        {
+            "PVS": {
+                "PVS_ID": "cutting_orange_tuil_15000kbps_1080p_59.94fps_vp9",
+                "SRC": "cutting_orange_tuil",
+                "bitrate": 15000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 59.94,
+                "encoder": "vp9",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 4.06896551724138,
+            "CI": 0.273936557193541
+        },
+        {
+            "PVS": {
+                "PVS_ID": "cutting_orange_tuil_7500kbps_2160p_59.94fps_vp9",
+                "SRC": "cutting_orange_tuil",
+                "bitrate": 7500.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 59.94,
+                "encoder": "vp9",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 4.2758620689655205,
+            "CI": 0.29013219805954804
+        },
+        {
+            "PVS": {
+                "PVS_ID": "cutting_orange_tuil_15000kbps_2160p_59.94fps_vp9",
+                "SRC": "cutting_orange_tuil",
+                "bitrate": 15000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 59.94,
+                "encoder": "vp9",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 4.31034482758621,
+            "CI": 0.276898119556923
+        },
+        {
+            "PVS": {
+                "PVS_ID": "cutting_orange_tuil_40000kbps_2160p_59.94fps_vp9",
+                "SRC": "cutting_orange_tuil",
+                "bitrate": 40000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 59.94,
+                "encoder": "vp9",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 4.48275862068965,
+            "CI": 0.209092509245411
+        },
+        {
+            "PVS": {
+                "PVS_ID": "surfing_sony_8bit_200kbps_360p_59.94fps_h264",
+                "SRC": "surfing_sony_8bit",
+                "bitrate": 200.0,
+                "width": 640,
+                "height": 360,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 1.10344827586207,
+            "CI": 0.11280241011368596
+        },
+        {
+            "PVS": {
+                "PVS_ID": "surfing_sony_8bit_750kbps_360p_59.94fps_h264",
+                "SRC": "surfing_sony_8bit",
+                "bitrate": 750.0,
+                "width": 640,
+                "height": 360,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 1.9655172413793105,
+            "CI": 0.26608227322496497
+        },
+        {
+            "PVS": {
+                "PVS_ID": "surfing_sony_8bit_750kbps_720p_59.94fps_h264",
+                "SRC": "surfing_sony_8bit",
+                "bitrate": 750.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 1.6896551724137898,
+            "CI": 0.259250549432249
+        },
+        {
+            "PVS": {
+                "PVS_ID": "surfing_sony_8bit_2000kbps_720p_59.94fps_h264",
+                "SRC": "surfing_sony_8bit",
+                "bitrate": 2000.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 2.8275862068965503,
+            "CI": 0.32362241279684
+        },
+        {
+            "PVS": {
+                "PVS_ID": "surfing_sony_8bit_2000kbps_1080p_59.94fps_h264",
+                "SRC": "surfing_sony_8bit",
+                "bitrate": 2000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 2.3448275862069,
+            "CI": 0.296252630527573
+        },
+        {
+            "PVS": {
+                "PVS_ID": "surfing_sony_8bit_7500kbps_1080p_59.94fps_h264",
+                "SRC": "surfing_sony_8bit",
+                "bitrate": 7500.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 3.931034482758621,
+            "CI": 0.290693925977628
+        },
+        {
+            "PVS": {
+                "PVS_ID": "surfing_sony_8bit_15000kbps_1080p_59.94fps_h264",
+                "SRC": "surfing_sony_8bit",
+                "bitrate": 15000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 4.41379310344828,
+            "CI": 0.228478882848094
+        },
+        {
+            "PVS": {
+                "PVS_ID": "surfing_sony_8bit_7500kbps_2160p_59.94fps_h264",
+                "SRC": "surfing_sony_8bit",
+                "bitrate": 7500.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 2.931034482758621,
+            "CI": 0.30653658808293
+        },
+        {
+            "PVS": {
+                "PVS_ID": "surfing_sony_8bit_15000kbps_2160p_59.94fps_h264",
+                "SRC": "surfing_sony_8bit",
+                "bitrate": 15000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 4.103448275862069,
+            "CI": 0.245016305362807
+        },
+        {
+            "PVS": {
+                "PVS_ID": "surfing_sony_8bit_40000kbps_2160p_59.94fps_h264",
+                "SRC": "surfing_sony_8bit",
+                "bitrate": 40000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 4.6551724137931,
+            "CI": 0.17605480310143806
+        },
+        {
+            "PVS": {
+                "PVS_ID": "surfing_sony_8bit_200kbps_360p_59.94fps_hevc",
+                "SRC": "surfing_sony_8bit",
+                "bitrate": 200.0,
+                "width": 640,
+                "height": 360,
+                "fps": 59.94,
+                "encoder": "hevc",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 1.17241379310345,
+            "CI": 0.17040450756524694
+        },
+        {
+            "PVS": {
+                "PVS_ID": "surfing_sony_8bit_750kbps_360p_59.94fps_hevc",
+                "SRC": "surfing_sony_8bit",
+                "bitrate": 750.0,
+                "width": 640,
+                "height": 360,
+                "fps": 59.94,
+                "encoder": "hevc",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 2.0,
+            "CI": 0.19454275862377202
+        },
+        {
+            "PVS": {
+                "PVS_ID": "surfing_sony_8bit_750kbps_720p_59.94fps_hevc",
+                "SRC": "surfing_sony_8bit",
+                "bitrate": 750.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 59.94,
+                "encoder": "hevc",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 1.55172413793103,
+            "CI": 0.2299024410621969
+        },
+        {
+            "PVS": {
+                "PVS_ID": "surfing_sony_8bit_2000kbps_720p_59.94fps_hevc",
+                "SRC": "surfing_sony_8bit",
+                "bitrate": 2000.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 59.94,
+                "encoder": "hevc",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 2.7241379310344795,
+            "CI": 0.255447156735775
+        },
+        {
+            "PVS": {
+                "PVS_ID": "surfing_sony_8bit_2000kbps_1080p_59.94fps_hevc",
+                "SRC": "surfing_sony_8bit",
+                "bitrate": 2000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 59.94,
+                "encoder": "hevc",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 2.931034482758621,
+            "CI": 0.363058624421003
+        },
+        {
+            "PVS": {
+                "PVS_ID": "surfing_sony_8bit_7500kbps_1080p_59.94fps_hevc",
+                "SRC": "surfing_sony_8bit",
+                "bitrate": 7500.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 59.94,
+                "encoder": "hevc",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 4.06896551724138,
+            "CI": 0.349785424986854
+        },
+        {
+            "PVS": {
+                "PVS_ID": "surfing_sony_8bit_15000kbps_1080p_59.94fps_hevc",
+                "SRC": "surfing_sony_8bit",
+                "bitrate": 15000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 59.94,
+                "encoder": "hevc",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 4.2758620689655205,
+            "CI": 0.273340394229664
+        },
+        {
+            "PVS": {
+                "PVS_ID": "surfing_sony_8bit_7500kbps_2160p_59.94fps_hevc",
+                "SRC": "surfing_sony_8bit",
+                "bitrate": 7500.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 59.94,
+                "encoder": "hevc",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 3.931034482758621,
+            "CI": 0.321599752902207
+        },
+        {
+            "PVS": {
+                "PVS_ID": "surfing_sony_8bit_15000kbps_2160p_59.94fps_hevc",
+                "SRC": "surfing_sony_8bit",
+                "bitrate": 15000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 59.94,
+                "encoder": "hevc",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 4.3448275862068995,
+            "CI": 0.22342501239019602
+        },
+        {
+            "PVS": {
+                "PVS_ID": "surfing_sony_8bit_40000kbps_2160p_59.94fps_hevc",
+                "SRC": "surfing_sony_8bit",
+                "bitrate": 40000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 59.94,
+                "encoder": "hevc",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 4.86206896551724,
+            "CI": 0.127723578367887
+        },
+        {
+            "PVS": {
+                "PVS_ID": "surfing_sony_8bit_200kbps_360p_59.94fps_vp9",
+                "SRC": "surfing_sony_8bit",
+                "bitrate": 200.0,
+                "width": 640,
+                "height": 360,
+                "fps": 59.94,
+                "encoder": "vp9",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 1.10344827586207,
+            "CI": 0.112802410113687
+        },
+        {
+            "PVS": {
+                "PVS_ID": "surfing_sony_8bit_750kbps_360p_59.94fps_vp9",
+                "SRC": "surfing_sony_8bit",
+                "bitrate": 750.0,
+                "width": 640,
+                "height": 360,
+                "fps": 59.94,
+                "encoder": "vp9",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 2.0,
+            "CI": 0.2382652458908361
+        },
+        {
+            "PVS": {
+                "PVS_ID": "surfing_sony_8bit_750kbps_720p_59.94fps_vp9",
+                "SRC": "surfing_sony_8bit",
+                "bitrate": 750.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 59.94,
+                "encoder": "vp9",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 2.10344827586207,
+            "CI": 0.312857595123703
+        },
+        {
+            "PVS": {
+                "PVS_ID": "surfing_sony_8bit_2000kbps_720p_59.94fps_vp9",
+                "SRC": "surfing_sony_8bit",
+                "bitrate": 2000.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 59.94,
+                "encoder": "vp9",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 3.0,
+            "CI": 0.322612668017864
+        },
+        {
+            "PVS": {
+                "PVS_ID": "surfing_sony_8bit_2000kbps_1080p_59.94fps_vp9",
+                "SRC": "surfing_sony_8bit",
+                "bitrate": 2000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 59.94,
+                "encoder": "vp9",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 2.89655172413793,
+            "CI": 0.312857595123703
+        },
+        {
+            "PVS": {
+                "PVS_ID": "surfing_sony_8bit_7500kbps_1080p_59.94fps_vp9",
+                "SRC": "surfing_sony_8bit",
+                "bitrate": 7500.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 59.94,
+                "encoder": "vp9",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 4.103448275862069,
+            "CI": 0.312857595123703
+        },
+        {
+            "PVS": {
+                "PVS_ID": "surfing_sony_8bit_15000kbps_1080p_59.94fps_vp9",
+                "SRC": "surfing_sony_8bit",
+                "bitrate": 15000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 59.94,
+                "encoder": "vp9",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 4.31034482758621,
+            "CI": 0.309186046063909
+        },
+        {
+            "PVS": {
+                "PVS_ID": "surfing_sony_8bit_7500kbps_2160p_59.94fps_vp9",
+                "SRC": "surfing_sony_8bit",
+                "bitrate": 7500.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 59.94,
+                "encoder": "vp9",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 4.13793103448276,
+            "CI": 0.36035255968278995
+        },
+        {
+            "PVS": {
+                "PVS_ID": "surfing_sony_8bit_15000kbps_2160p_59.94fps_vp9",
+                "SRC": "surfing_sony_8bit",
+                "bitrate": 15000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 59.94,
+                "encoder": "vp9",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 4.44827586206897,
+            "CI": 0.28502683401053197
+        },
+        {
+            "PVS": {
+                "PVS_ID": "surfing_sony_8bit_40000kbps_2160p_59.94fps_vp9",
+                "SRC": "surfing_sony_8bit",
+                "bitrate": 40000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 59.94,
+                "encoder": "vp9",
+                "yuv_fmt": "yuv422",
+                "duration": null
+            },
+            "MOS": 4.68965517241379,
+            "CI": 0.21974395307823494
+        },
+        {
+            "PVS": {
+                "PVS_ID": "vegetables_tuil_200kbps_360p_59.94fps_h264",
+                "SRC": "vegetables_tuil",
+                "bitrate": 200.0,
+                "width": 640,
+                "height": 360,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 1.89655172413793,
+            "CI": 0.34176500302556
+        },
+        {
+            "PVS": {
+                "PVS_ID": "vegetables_tuil_750kbps_360p_59.94fps_h264",
+                "SRC": "vegetables_tuil",
+                "bitrate": 750.0,
+                "width": 640,
+                "height": 360,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 3.03448275862069,
+            "CI": 0.31493640600012396
+        },
+        {
+            "PVS": {
+                "PVS_ID": "vegetables_tuil_750kbps_720p_59.94fps_h264",
+                "SRC": "vegetables_tuil",
+                "bitrate": 750.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 2.96551724137931,
+            "CI": 0.26608227322496497
+        },
+        {
+            "PVS": {
+                "PVS_ID": "vegetables_tuil_2000kbps_720p_59.94fps_h264",
+                "SRC": "vegetables_tuil",
+                "bitrate": 2000.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 3.5862068965517206,
+            "CI": 0.26669466131512
+        },
+        {
+            "PVS": {
+                "PVS_ID": "vegetables_tuil_2000kbps_1080p_59.94fps_h264",
+                "SRC": "vegetables_tuil",
+                "bitrate": 2000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 3.6551724137931,
+            "CI": 0.296252630527573
+        },
+        {
+            "PVS": {
+                "PVS_ID": "vegetables_tuil_7500kbps_1080p_59.94fps_h264",
+                "SRC": "vegetables_tuil",
+                "bitrate": 7500.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 3.96551724137931,
+            "CI": 0.299538342438891
+        },
+        {
+            "PVS": {
+                "PVS_ID": "vegetables_tuil_15000kbps_1080p_59.94fps_h264",
+                "SRC": "vegetables_tuil",
+                "bitrate": 15000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 4.37931034482759,
+            "CI": 0.24634431674484397
+        },
+        {
+            "PVS": {
+                "PVS_ID": "vegetables_tuil_7500kbps_2160p_59.94fps_h264",
+                "SRC": "vegetables_tuil",
+                "bitrate": 7500.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 4.20689655172414,
+            "CI": 0.32812781398297497
+        },
+        {
+            "PVS": {
+                "PVS_ID": "vegetables_tuil_15000kbps_2160p_59.94fps_h264",
+                "SRC": "vegetables_tuil",
+                "bitrate": 15000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 4.2758620689655205,
+            "CI": 0.255447156735775
+        },
+        {
+            "PVS": {
+                "PVS_ID": "vegetables_tuil_40000kbps_2160p_59.94fps_h264",
+                "SRC": "vegetables_tuil",
+                "bitrate": 40000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 4.41379310344828,
+            "CI": 0.283879840085948
+        },
+        {
+            "PVS": {
+                "PVS_ID": "vegetables_tuil_200kbps_360p_59.94fps_hevc",
+                "SRC": "vegetables_tuil",
+                "bitrate": 200.0,
+                "width": 640,
+                "height": 360,
+                "fps": 59.94,
+                "encoder": "hevc",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 2.27586206896552,
+            "CI": 0.29013219805954804
+        },
+        {
+            "PVS": {
+                "PVS_ID": "vegetables_tuil_750kbps_360p_59.94fps_hevc",
+                "SRC": "vegetables_tuil",
+                "bitrate": 750.0,
+                "width": 640,
+                "height": 360,
+                "fps": 59.94,
+                "encoder": "hevc",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 2.89655172413793,
+            "CI": 0.22488056532391396
+        },
+        {
+            "PVS": {
+                "PVS_ID": "vegetables_tuil_750kbps_720p_59.94fps_hevc",
+                "SRC": "vegetables_tuil",
+                "bitrate": 750.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 59.94,
+                "encoder": "hevc",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 3.37931034482759,
+            "CI": 0.264853249226285
+        },
+        {
+            "PVS": {
+                "PVS_ID": "vegetables_tuil_2000kbps_720p_59.94fps_hevc",
+                "SRC": "vegetables_tuil",
+                "bitrate": 2000.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 59.94,
+                "encoder": "hevc",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 3.89655172413793,
+            "CI": 0.263618495418809
+        },
+        {
+            "PVS": {
+                "PVS_ID": "vegetables_tuil_2000kbps_1080p_59.94fps_hevc",
+                "SRC": "vegetables_tuil",
+                "bitrate": 2000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 59.94,
+                "encoder": "hevc",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 4.103448275862069,
+            "CI": 0.22488056532391396
+        },
+        {
+            "PVS": {
+                "PVS_ID": "vegetables_tuil_7500kbps_1080p_59.94fps_hevc",
+                "SRC": "vegetables_tuil",
+                "bitrate": 7500.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 59.94,
+                "encoder": "hevc",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 4.24137931034483,
+            "CI": 0.286169230709577
+        },
+        {
+            "PVS": {
+                "PVS_ID": "vegetables_tuil_15000kbps_1080p_59.94fps_hevc",
+                "SRC": "vegetables_tuil",
+                "bitrate": 15000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 59.94,
+                "encoder": "hevc",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 4.3448275862068995,
+            "CI": 0.27982833998948303
+        },
+        {
+            "PVS": {
+                "PVS_ID": "vegetables_tuil_7500kbps_2160p_59.94fps_hevc",
+                "SRC": "vegetables_tuil",
+                "bitrate": 7500.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 59.94,
+                "encoder": "hevc",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 4.37931034482759,
+            "CI": 0.20435772538862002
+        },
+        {
+            "PVS": {
+                "PVS_ID": "vegetables_tuil_15000kbps_2160p_59.94fps_hevc",
+                "SRC": "vegetables_tuil",
+                "bitrate": 15000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 59.94,
+                "encoder": "hevc",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 4.48275862068965,
+            "CI": 0.209092509245411
+        },
+        {
+            "PVS": {
+                "PVS_ID": "vegetables_tuil_40000kbps_2160p_59.94fps_hevc",
+                "SRC": "vegetables_tuil",
+                "bitrate": 40000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 59.94,
+                "encoder": "hevc",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 4.51724137931035,
+            "CI": 0.23061092484047505
+        },
+        {
+            "PVS": {
+                "PVS_ID": "vegetables_tuil_200kbps_360p_59.94fps_vp9",
+                "SRC": "vegetables_tuil",
+                "bitrate": 200.0,
+                "width": 640,
+                "height": 360,
+                "fps": 59.94,
+                "encoder": "vp9",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 2.1724137931034497,
+            "CI": 0.276308346534697
+        },
+        {
+            "PVS": {
+                "PVS_ID": "vegetables_tuil_750kbps_360p_59.94fps_vp9",
+                "SRC": "vegetables_tuil",
+                "bitrate": 750.0,
+                "width": 640,
+                "height": 360,
+                "fps": 59.94,
+                "encoder": "vp9",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 2.86206896551724,
+            "CI": 0.287307085021855
+        },
+        {
+            "PVS": {
+                "PVS_ID": "vegetables_tuil_750kbps_720p_59.94fps_vp9",
+                "SRC": "vegetables_tuil",
+                "bitrate": 750.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 59.94,
+                "encoder": "vp9",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 3.3448275862069,
+            "CI": 0.32663291867321004
+        },
+        {
+            "PVS": {
+                "PVS_ID": "vegetables_tuil_2000kbps_720p_59.94fps_vp9",
+                "SRC": "vegetables_tuil",
+                "bitrate": 2000.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 59.94,
+                "encoder": "vp9",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 3.51724137931034,
+            "CI": 0.268523446131344
+        },
+        {
+            "PVS": {
+                "PVS_ID": "vegetables_tuil_2000kbps_1080p_59.94fps_vp9",
+                "SRC": "vegetables_tuil",
+                "bitrate": 2000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 59.94,
+                "encoder": "vp9",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 4.06896551724138,
+            "CI": 0.273936557193541
+        },
+        {
+            "PVS": {
+                "PVS_ID": "vegetables_tuil_7500kbps_1080p_59.94fps_vp9",
+                "SRC": "vegetables_tuil",
+                "bitrate": 7500.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 59.94,
+                "encoder": "vp9",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 4.0,
+            "CI": 0.29181413793565697
+        },
+        {
+            "PVS": {
+                "PVS_ID": "vegetables_tuil_15000kbps_1080p_59.94fps_vp9",
+                "SRC": "vegetables_tuil",
+                "bitrate": 15000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 59.94,
+                "encoder": "vp9",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 3.96551724137931,
+            "CI": 0.32961592961735303
+        },
+        {
+            "PVS": {
+                "PVS_ID": "vegetables_tuil_7500kbps_2160p_59.94fps_vp9",
+                "SRC": "vegetables_tuil",
+                "bitrate": 7500.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 59.94,
+                "encoder": "vp9",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 4.51724137931035,
+            "CI": 0.25028607609896303
+        },
+        {
+            "PVS": {
+                "PVS_ID": "vegetables_tuil_15000kbps_2160p_59.94fps_vp9",
+                "SRC": "vegetables_tuil",
+                "bitrate": 15000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 59.94,
+                "encoder": "vp9",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 4.48275862068965,
+            "CI": 0.23061092484047505
+        },
+        {
+            "PVS": {
+                "PVS_ID": "vegetables_tuil_40000kbps_2160p_59.94fps_vp9",
+                "SRC": "vegetables_tuil",
+                "bitrate": 40000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 59.94,
+                "encoder": "vp9",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 4.75862068965517,
+            "CI": 0.15850079244436202
+        },
+        {
+            "PVS": {
+                "PVS_ID": "water_netflix_200kbps_360p_59.94fps_h264",
+                "SRC": "water_netflix",
+                "bitrate": 200.0,
+                "width": 640,
+                "height": 360,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 1.10344827586207,
+            "CI": 0.14895000826013094
+        },
+        {
+            "PVS": {
+                "PVS_ID": "water_netflix_750kbps_360p_59.94fps_h264",
+                "SRC": "water_netflix",
+                "bitrate": 750.0,
+                "width": 640,
+                "height": 360,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 1.62068965517241,
+            "CI": 0.24634431674484397
+        },
+        {
+            "PVS": {
+                "PVS_ID": "water_netflix_750kbps_720p_59.94fps_h264",
+                "SRC": "water_netflix",
+                "bitrate": 750.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 1.48275862068966,
+            "CI": 0.268523446131344
+        },
+        {
+            "PVS": {
+                "PVS_ID": "water_netflix_2000kbps_720p_59.94fps_h264",
+                "SRC": "water_netflix",
+                "bitrate": 2000.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 2.0,
+            "CI": 0.217505416406543
+        },
+        {
+            "PVS": {
+                "PVS_ID": "water_netflix_2000kbps_1080p_59.94fps_h264",
+                "SRC": "water_netflix",
+                "bitrate": 2000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 1.62068965517241,
+            "CI": 0.264853249226285
+        },
+        {
+            "PVS": {
+                "PVS_ID": "water_netflix_7500kbps_1080p_59.94fps_h264",
+                "SRC": "water_netflix",
+                "bitrate": 7500.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 3.24137931034483,
+            "CI": 0.269130279551883
+        },
+        {
+            "PVS": {
+                "PVS_ID": "water_netflix_15000kbps_1080p_59.94fps_h264",
+                "SRC": "water_netflix",
+                "bitrate": 15000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 3.62068965517241,
+            "CI": 0.313898721445996
+        },
+        {
+            "PVS": {
+                "PVS_ID": "water_netflix_7500kbps_2160p_59.94fps_h264",
+                "SRC": "water_netflix",
+                "bitrate": 7500.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 1.89655172413793,
+            "CI": 0.22488056532391396
+        },
+        {
+            "PVS": {
+                "PVS_ID": "water_netflix_15000kbps_2160p_59.94fps_h264",
+                "SRC": "water_netflix",
+                "bitrate": 15000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 2.8275862068965503,
+            "CI": 0.351645998883709
+        },
+        {
+            "PVS": {
+                "PVS_ID": "water_netflix_40000kbps_2160p_59.94fps_h264",
+                "SRC": "water_netflix",
+                "bitrate": 40000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 3.96551724137931,
+            "CI": 0.28330460172365995
+        },
+        {
+            "PVS": {
+                "PVS_ID": "water_netflix_200kbps_360p_59.94fps_hevc",
+                "SRC": "water_netflix",
+                "bitrate": 200.0,
+                "width": 640,
+                "height": 360,
+                "fps": 59.94,
+                "encoder": "hevc",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 1.0,
+            "CI": 0.0
+        },
+        {
+            "PVS": {
+                "PVS_ID": "water_netflix_750kbps_360p_59.94fps_hevc",
+                "SRC": "water_netflix",
+                "bitrate": 750.0,
+                "width": 640,
+                "height": 360,
+                "fps": 59.94,
+                "encoder": "hevc",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 1.55172413793103,
+            "CI": 0.20831085226920001
+        },
+        {
+            "PVS": {
+                "PVS_ID": "water_netflix_750kbps_720p_59.94fps_hevc",
+                "SRC": "water_netflix",
+                "bitrate": 750.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 59.94,
+                "encoder": "hevc",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 1.03448275862069,
+            "CI": 0.0675849649841398
+        },
+        {
+            "PVS": {
+                "PVS_ID": "water_netflix_2000kbps_720p_59.94fps_hevc",
+                "SRC": "water_netflix",
+                "bitrate": 2000.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 59.94,
+                "encoder": "hevc",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 2.0,
+            "CI": 0.30759910977174104
+        },
+        {
+            "PVS": {
+                "PVS_ID": "water_netflix_2000kbps_1080p_59.94fps_hevc",
+                "SRC": "water_netflix",
+                "bitrate": 2000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 59.94,
+                "encoder": "hevc",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 1.27586206896552,
+            "CI": 0.16554867849501098
+        },
+        {
+            "PVS": {
+                "PVS_ID": "water_netflix_7500kbps_1080p_59.94fps_hevc",
+                "SRC": "water_netflix",
+                "bitrate": 7500.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 59.94,
+                "encoder": "hevc",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 3.31034482758621,
+            "CI": 0.24031047864728305
+        },
+        {
+            "PVS": {
+                "PVS_ID": "water_netflix_15000kbps_1080p_59.94fps_hevc",
+                "SRC": "water_netflix",
+                "bitrate": 15000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 59.94,
+                "encoder": "hevc",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 4.0,
+            "CI": 0.29181413793565697
+        },
+        {
+            "PVS": {
+                "PVS_ID": "water_netflix_7500kbps_2160p_59.94fps_hevc",
+                "SRC": "water_netflix",
+                "bitrate": 7500.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 59.94,
+                "encoder": "hevc",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 2.62068965517241,
+            "CI": 0.264853249226285
+        },
+        {
+            "PVS": {
+                "PVS_ID": "water_netflix_15000kbps_2160p_59.94fps_hevc",
+                "SRC": "water_netflix",
+                "bitrate": 15000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 59.94,
+                "encoder": "hevc",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 3.4137931034482794,
+            "CI": 0.26669466131512
+        },
+        {
+            "PVS": {
+                "PVS_ID": "water_netflix_40000kbps_2160p_59.94fps_hevc",
+                "SRC": "water_netflix",
+                "bitrate": 40000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 59.94,
+                "encoder": "hevc",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 4.37931034482759,
+            "CI": 0.282150606696065
+        },
+        {
+            "PVS": {
+                "PVS_ID": "water_netflix_200kbps_360p_59.94fps_vp9",
+                "SRC": "water_netflix",
+                "bitrate": 200.0,
+                "width": 640,
+                "height": 360,
+                "fps": 59.94,
+                "encoder": "vp9",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 1.31034482758621,
+            "CI": 0.24031047864728305
+        },
+        {
+            "PVS": {
+                "PVS_ID": "water_netflix_750kbps_360p_59.94fps_vp9",
+                "SRC": "water_netflix",
+                "bitrate": 750.0,
+                "width": 640,
+                "height": 360,
+                "fps": 59.94,
+                "encoder": "vp9",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 1.9655172413793105,
+            "CI": 0.26608227322496497
+        },
+        {
+            "PVS": {
+                "PVS_ID": "water_netflix_750kbps_720p_59.94fps_vp9",
+                "SRC": "water_netflix",
+                "bitrate": 750.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 59.94,
+                "encoder": "vp9",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 1.8620689655172398,
+            "CI": 0.232723435442254
+        },
+        {
+            "PVS": {
+                "PVS_ID": "water_netflix_2000kbps_720p_59.94fps_vp9",
+                "SRC": "water_netflix",
+                "bitrate": 2000.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 59.94,
+                "encoder": "vp9",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 2.68965517241379,
+            "CI": 0.293486438949735
+        },
+        {
+            "PVS": {
+                "PVS_ID": "water_netflix_2000kbps_1080p_59.94fps_vp9",
+                "SRC": "water_netflix",
+                "bitrate": 2000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 59.94,
+                "encoder": "vp9",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 2.51724137931034,
+            "CI": 0.31700158488872404
+        },
+        {
+            "PVS": {
+                "PVS_ID": "water_netflix_7500kbps_1080p_59.94fps_vp9",
+                "SRC": "water_netflix",
+                "bitrate": 7500.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 59.94,
+                "encoder": "vp9",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 3.6551724137931,
+            "CI": 0.243681056700754
+        },
+        {
+            "PVS": {
+                "PVS_ID": "water_netflix_15000kbps_1080p_59.94fps_vp9",
+                "SRC": "water_netflix",
+                "bitrate": 15000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 59.94,
+                "encoder": "vp9",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 4.20689655172414,
+            "CI": 0.2456812083637289
+        },
+        {
+            "PVS": {
+                "PVS_ID": "water_netflix_7500kbps_2160p_59.94fps_vp9",
+                "SRC": "water_netflix",
+                "bitrate": 7500.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 59.94,
+                "encoder": "vp9",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 3.48275862068966,
+            "CI": 0.371936674388141
+        },
+        {
+            "PVS": {
+                "PVS_ID": "water_netflix_15000kbps_2160p_59.94fps_vp9",
+                "SRC": "water_netflix",
+                "bitrate": 15000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 59.94,
+                "encoder": "vp9",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 4.0,
+            "CI": 0.322612668017864
+        },
+        {
+            "PVS": {
+                "PVS_ID": "water_netflix_40000kbps_2160p_59.94fps_vp9",
+                "SRC": "water_netflix",
+                "bitrate": 40000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 59.94,
+                "encoder": "vp9",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 4.48275862068965,
+            "CI": 0.25028607609896303
+        }
+    ]
+}

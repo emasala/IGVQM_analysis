@@ -1,0 +1,476 @@
+{
+    "dataset_name": "GamingVideoSet2",
+    "SRC_names": [
+        "LoL",
+        "ProjectCar"
+    ],
+    "PVS_bitrates": [
+        300.0,
+        500.0,
+        600.0,
+        750.0,
+        1200.0,
+        2000.0,
+        4000.0
+    ],
+    "PVS_encoders": [
+        "x264"
+    ],
+    "PVS_resolutions": [
+        "1280x720",
+        "640x480",
+        "1920x1080"
+    ],
+    "scores": [
+        {
+            "PVS": {
+                "PVS_ID": "LoL_30fps_30sec_Part2_1280x720_1200_x264",
+                "SRC": "LoL",
+                "fps": 30,
+                "duration": 30,
+                "parts": "Part2",
+                "width": 1280,
+                "height": 720,
+                "bitrate": 1200.0,
+                "encoder": "x264",
+                "yuv_fmt": "yuv420p"
+            },
+            "MOS": 3.4
+        },
+        {
+            "PVS": {
+                "PVS_ID": "LoL_30fps_30sec_Part2_1280x720_2000_x264",
+                "SRC": "LoL",
+                "fps": 30,
+                "duration": 30,
+                "parts": "Part2",
+                "width": 1280,
+                "height": 720,
+                "bitrate": 2000.0,
+                "encoder": "x264",
+                "yuv_fmt": "yuv420p"
+            },
+            "MOS": 4.0
+        },
+        {
+            "PVS": {
+                "PVS_ID": "LoL_30fps_30sec_Part2_1280x720_4000_x264",
+                "SRC": "LoL",
+                "fps": 30,
+                "duration": 30,
+                "parts": "Part2",
+                "width": 1280,
+                "height": 720,
+                "bitrate": 4000.0,
+                "encoder": "x264",
+                "yuv_fmt": "yuv420p"
+            },
+            "MOS": 4.0
+        },
+        {
+            "PVS": {
+                "PVS_ID": "LoL_30fps_30sec_Part2_1280x720_500_x264",
+                "SRC": "LoL",
+                "fps": 30,
+                "duration": 30,
+                "parts": "Part2",
+                "width": 1280,
+                "height": 720,
+                "bitrate": 500.0,
+                "encoder": "x264",
+                "yuv_fmt": "yuv420p"
+            },
+            "MOS": 2.0
+        },
+        {
+            "PVS": {
+                "PVS_ID": "LoL_30fps_30sec_Part2_1280x720_600_x264",
+                "SRC": "LoL",
+                "fps": 30,
+                "duration": 30,
+                "parts": "Part2",
+                "width": 1280,
+                "height": 720,
+                "bitrate": 600.0,
+                "encoder": "x264",
+                "yuv_fmt": "yuv420p"
+            },
+            "MOS": 2.52
+        },
+        {
+            "PVS": {
+                "PVS_ID": "LoL_30fps_30sec_Part2_1920x1080_1200_x264",
+                "SRC": "LoL",
+                "fps": 30,
+                "duration": 30,
+                "parts": "Part2",
+                "width": 1920,
+                "height": 1080,
+                "bitrate": 1200.0,
+                "encoder": "x264",
+                "yuv_fmt": "yuv420p"
+            },
+            "MOS": 3.29
+        },
+        {
+            "PVS": {
+                "PVS_ID": "LoL_30fps_30sec_Part2_1920x1080_2000_x264",
+                "SRC": "LoL",
+                "fps": 30,
+                "duration": 30,
+                "parts": "Part2",
+                "width": 1920,
+                "height": 1080,
+                "bitrate": 2000.0,
+                "encoder": "x264",
+                "yuv_fmt": "yuv420p"
+            },
+            "MOS": 4.1
+        },
+        {
+            "PVS": {
+                "PVS_ID": "LoL_30fps_30sec_Part2_1920x1080_4000_x264",
+                "SRC": "LoL",
+                "fps": 30,
+                "duration": 30,
+                "parts": "Part2",
+                "width": 1920,
+                "height": 1080,
+                "bitrate": 4000.0,
+                "encoder": "x264",
+                "yuv_fmt": "yuv420p"
+            },
+            "MOS": 4.48
+        },
+        {
+            "PVS": {
+                "PVS_ID": "LoL_30fps_30sec_Part2_1920x1080_600_x264",
+                "SRC": "LoL",
+                "fps": 30,
+                "duration": 30,
+                "parts": "Part2",
+                "width": 1920,
+                "height": 1080,
+                "bitrate": 600.0,
+                "encoder": "x264",
+                "yuv_fmt": "yuv420p"
+            },
+            "MOS": 1.56
+        },
+        {
+            "PVS": {
+                "PVS_ID": "LoL_30fps_30sec_Part2_1920x1080_750_x264",
+                "SRC": "LoL",
+                "fps": 30,
+                "duration": 30,
+                "parts": "Part2",
+                "width": 1920,
+                "height": 1080,
+                "bitrate": 750.0,
+                "encoder": "x264",
+                "yuv_fmt": "yuv420p"
+            },
+            "MOS": 1.9
+        },
+        {
+            "PVS": {
+                "PVS_ID": "LoL_30fps_30sec_Part2_640x480_1200_x264",
+                "SRC": "LoL",
+                "fps": 30,
+                "duration": 30,
+                "parts": "Part2",
+                "width": 640,
+                "height": 480,
+                "bitrate": 1200.0,
+                "encoder": "x264",
+                "yuv_fmt": "yuv420p"
+            },
+            "MOS": 2.62
+        },
+        {
+            "PVS": {
+                "PVS_ID": "LoL_30fps_30sec_Part2_640x480_2000_x264",
+                "SRC": "LoL",
+                "fps": 30,
+                "duration": 30,
+                "parts": "Part2",
+                "width": 640,
+                "height": 480,
+                "bitrate": 2000.0,
+                "encoder": "x264",
+                "yuv_fmt": "yuv420p"
+            },
+            "MOS": 2.92
+        },
+        {
+            "PVS": {
+                "PVS_ID": "LoL_30fps_30sec_Part2_640x480_300_x264",
+                "SRC": "LoL",
+                "fps": 30,
+                "duration": 30,
+                "parts": "Part2",
+                "width": 640,
+                "height": 480,
+                "bitrate": 300.0,
+                "encoder": "x264",
+                "yuv_fmt": "yuv420p"
+            },
+            "MOS": 1.72
+        },
+        {
+            "PVS": {
+                "PVS_ID": "LoL_30fps_30sec_Part2_640x480_4000_x264",
+                "SRC": "LoL",
+                "fps": 30,
+                "duration": 30,
+                "parts": "Part2",
+                "width": 640,
+                "height": 480,
+                "bitrate": 4000.0,
+                "encoder": "x264",
+                "yuv_fmt": "yuv420p"
+            },
+            "MOS": 2.84
+        },
+        {
+            "PVS": {
+                "PVS_ID": "LoL_30fps_30sec_Part2_640x480_600_x264",
+                "SRC": "LoL",
+                "fps": 30,
+                "duration": 30,
+                "parts": "Part2",
+                "width": 640,
+                "height": 480,
+                "bitrate": 600.0,
+                "encoder": "x264",
+                "yuv_fmt": "yuv420p"
+            },
+            "MOS": 2.52
+        },
+        {
+            "PVS": {
+                "PVS_ID": "ProjectCar_30FPS_30Sec_Part2_1280x720_1200_x264",
+                "SRC": "ProjectCar",
+                "fps": 30,
+                "duration": 30,
+                "parts": "Part2",
+                "width": 1280,
+                "height": 720,
+                "bitrate": 1200.0,
+                "encoder": "x264",
+                "yuv_fmt": "yuv420p"
+            },
+            "MOS": 3.28
+        },
+        {
+            "PVS": {
+                "PVS_ID": "ProjectCar_30FPS_30Sec_Part2_1280x720_2000_x264",
+                "SRC": "ProjectCar",
+                "fps": 30,
+                "duration": 30,
+                "parts": "Part2",
+                "width": 1280,
+                "height": 720,
+                "bitrate": 2000.0,
+                "encoder": "x264",
+                "yuv_fmt": "yuv420p"
+            },
+            "MOS": 3.72
+        },
+        {
+            "PVS": {
+                "PVS_ID": "ProjectCar_30FPS_30Sec_Part2_1280x720_4000_x264",
+                "SRC": "ProjectCar",
+                "fps": 30,
+                "duration": 30,
+                "parts": "Part2",
+                "width": 1280,
+                "height": 720,
+                "bitrate": 4000.0,
+                "encoder": "x264",
+                "yuv_fmt": "yuv420p"
+            },
+            "MOS": 4.0
+        },
+        {
+            "PVS": {
+                "PVS_ID": "ProjectCar_30FPS_30Sec_Part2_1280x720_500_x264",
+                "SRC": "ProjectCar",
+                "fps": 30,
+                "duration": 30,
+                "parts": "Part2",
+                "width": 1280,
+                "height": 720,
+                "bitrate": 500.0,
+                "encoder": "x264",
+                "yuv_fmt": "yuv420p"
+            },
+            "MOS": 2.16
+        },
+        {
+            "PVS": {
+                "PVS_ID": "ProjectCar_30FPS_30Sec_Part2_1280x720_600_x264",
+                "SRC": "ProjectCar",
+                "fps": 30,
+                "duration": 30,
+                "parts": "Part2",
+                "width": 1280,
+                "height": 720,
+                "bitrate": 600.0,
+                "encoder": "x264",
+                "yuv_fmt": "yuv420p"
+            },
+            "MOS": 2.36
+        },
+        {
+            "PVS": {
+                "PVS_ID": "ProjectCar_30FPS_30Sec_Part2_1920x1080_1200_x264",
+                "SRC": "ProjectCar",
+                "fps": 30,
+                "duration": 30,
+                "parts": "Part2",
+                "width": 1920,
+                "height": 1080,
+                "bitrate": 1200.0,
+                "encoder": "x264",
+                "yuv_fmt": "yuv420p"
+            },
+            "MOS": 2.72
+        },
+        {
+            "PVS": {
+                "PVS_ID": "ProjectCar_30FPS_30Sec_Part2_1920x1080_2000_x264",
+                "SRC": "ProjectCar",
+                "fps": 30,
+                "duration": 30,
+                "parts": "Part2",
+                "width": 1920,
+                "height": 1080,
+                "bitrate": 2000.0,
+                "encoder": "x264",
+                "yuv_fmt": "yuv420p"
+            },
+            "MOS": 3.44
+        },
+        {
+            "PVS": {
+                "PVS_ID": "ProjectCar_30FPS_30Sec_Part2_1920x1080_4000_x264",
+                "SRC": "ProjectCar",
+                "fps": 30,
+                "duration": 30,
+                "parts": "Part2",
+                "width": 1920,
+                "height": 1080,
+                "bitrate": 4000.0,
+                "encoder": "x264",
+                "yuv_fmt": "yuv420p"
+            },
+            "MOS": 4.16
+        },
+        {
+            "PVS": {
+                "PVS_ID": "ProjectCar_30FPS_30Sec_Part2_1920x1080_600_x264",
+                "SRC": "ProjectCar",
+                "fps": 30,
+                "duration": 30,
+                "parts": "Part2",
+                "width": 1920,
+                "height": 1080,
+                "bitrate": 600.0,
+                "encoder": "x264",
+                "yuv_fmt": "yuv420p"
+            },
+            "MOS": 1.52
+        },
+        {
+            "PVS": {
+                "PVS_ID": "ProjectCar_30FPS_30Sec_Part2_1920x1080_750_x264",
+                "SRC": "ProjectCar",
+                "fps": 30,
+                "duration": 30,
+                "parts": "Part2",
+                "width": 1920,
+                "height": 1080,
+                "bitrate": 750.0,
+                "encoder": "x264",
+                "yuv_fmt": "yuv420p"
+            },
+            "MOS": 1.96
+        },
+        {
+            "PVS": {
+                "PVS_ID": "ProjectCar_30FPS_30Sec_Part2_640x480_1200_x264",
+                "SRC": "ProjectCar",
+                "fps": 30,
+                "duration": 30,
+                "parts": "Part2",
+                "width": 640,
+                "height": 480,
+                "bitrate": 1200.0,
+                "encoder": "x264",
+                "yuv_fmt": "yuv420p"
+            },
+            "MOS": 3.16
+        },
+        {
+            "PVS": {
+                "PVS_ID": "ProjectCar_30FPS_30Sec_Part2_640x480_2000_x264",
+                "SRC": "ProjectCar",
+                "fps": 30,
+                "duration": 30,
+                "parts": "Part2",
+                "width": 640,
+                "height": 480,
+                "bitrate": 2000.0,
+                "encoder": "x264",
+                "yuv_fmt": "yuv420p"
+            },
+            "MOS": 3.52
+        },
+        {
+            "PVS": {
+                "PVS_ID": "ProjectCar_30FPS_30Sec_Part2_640x480_300_x264",
+                "SRC": "ProjectCar",
+                "fps": 30,
+                "duration": 30,
+                "parts": "Part2",
+                "width": 640,
+                "height": 480,
+                "bitrate": 300.0,
+                "encoder": "x264",
+                "yuv_fmt": "yuv420p"
+            },
+            "MOS": 2.0
+        },
+        {
+            "PVS": {
+                "PVS_ID": "ProjectCar_30FPS_30Sec_Part2_640x480_4000_x264",
+                "SRC": "ProjectCar",
+                "fps": 30,
+                "duration": 30,
+                "parts": "Part2",
+                "width": 640,
+                "height": 480,
+                "bitrate": 4000.0,
+                "encoder": "x264",
+                "yuv_fmt": "yuv420p"
+            },
+            "MOS": 3.52
+        },
+        {
+            "PVS": {
+                "PVS_ID": "ProjectCar_30FPS_30Sec_Part2_640x480_600_x264",
+                "SRC": "ProjectCar",
+                "fps": 30,
+                "duration": 30,
+                "parts": "Part2",
+                "width": 640,
+                "height": 480,
+                "bitrate": 600.0,
+                "encoder": "x264",
+                "yuv_fmt": "yuv420p"
+            },
+            "MOS": 2.76
+        }
+    ]
+}

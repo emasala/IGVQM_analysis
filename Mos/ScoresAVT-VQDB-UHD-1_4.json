@@ -1,0 +1,2868 @@
+{
+    "dataset_name": "AVT-VQDB-UHD-4_4",
+    "SRC_names": [
+        "Sparks_cut_13",
+        "venice_harmonic_2_cropped_8s",
+        "Sparks_cut_15",
+        "Giftmord-SDR_8s_11_3840x2160",
+        "air_acrobatics_harmonic_0_cropped_8s",
+        "monkeys_harmonic_0_cropped_8s",
+        "fr-041_debris_3840x2160_60p_422_ffvhuff48s",
+        "Daydreamer_SDR_8s_3840x2160_8"
+    ],
+    "PVS_bitrates": [
+        200.0,
+        500.0,
+        1000.0,
+        2000.0,
+        4000.0,
+        6000.0,
+        8000.0,
+        15000.0
+    ],
+    "PVS_encoders": [
+        "h264"
+    ],
+    "PVS_resolutions": [
+        "3840x2160",
+        "854x480",
+        "640x360",
+        "1280x720",
+        "2560x1440",
+        "1920x1080"
+    ],
+    "scores": [
+        {
+            "PVS": {
+                "PVS_ID": "air_acrobatics_harmonic_0_cropped_8s_200kbps_360p_15.0fps_h264",
+                "SRC": "air_acrobatics_harmonic_0_cropped_8s",
+                "bitrate": 200.0,
+                "width": 640,
+                "height": 360,
+                "fps": 15.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 1.72,
+            "CI": 0.28894239051482
+        },
+        {
+            "PVS": {
+                "PVS_ID": "air_acrobatics_harmonic_0_cropped_8s_500kbps_360p_15.0fps_h264",
+                "SRC": "air_acrobatics_harmonic_0_cropped_8s",
+                "bitrate": 500.0,
+                "width": 640,
+                "height": 360,
+                "fps": 15.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 1.72,
+            "CI": 0.28894239051482
+        },
+        {
+            "PVS": {
+                "PVS_ID": "air_acrobatics_harmonic_0_cropped_8s_500kbps_360p_24.0fps_h264",
+                "SRC": "air_acrobatics_harmonic_0_cropped_8s",
+                "bitrate": 500.0,
+                "width": 640,
+                "height": 360,
+                "fps": 24.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 1.72,
+            "CI": 0.21230430242809
+        },
+        {
+            "PVS": {
+                "PVS_ID": "air_acrobatics_harmonic_0_cropped_8s_1000kbps_360p_24.0fps_h264",
+                "SRC": "air_acrobatics_harmonic_0_cropped_8s",
+                "bitrate": 1000.0,
+                "width": 640,
+                "height": 360,
+                "fps": 24.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 1.96,
+            "CI": 0.288054700581318
+        },
+        {
+            "PVS": {
+                "PVS_ID": "air_acrobatics_harmonic_0_cropped_8s_500kbps_480p_15.0fps_h264",
+                "SRC": "air_acrobatics_harmonic_0_cropped_8s",
+                "bitrate": 500.0,
+                "width": 854,
+                "height": 480,
+                "fps": 15.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 2.0,
+            "CI": 0.25303026237633197
+        },
+        {
+            "PVS": {
+                "PVS_ID": "air_acrobatics_harmonic_0_cropped_8s_1000kbps_480p_15.0fps_h264",
+                "SRC": "air_acrobatics_harmonic_0_cropped_8s",
+                "bitrate": 1000.0,
+                "width": 854,
+                "height": 480,
+                "fps": 15.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 2.24,
+            "CI": 0.305318523374378
+        },
+        {
+            "PVS": {
+                "PVS_ID": "air_acrobatics_harmonic_0_cropped_8s_1000kbps_480p_24.0fps_h264",
+                "SRC": "air_acrobatics_harmonic_0_cropped_8s",
+                "bitrate": 1000.0,
+                "width": 854,
+                "height": 480,
+                "fps": 24.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 2.56,
+            "CI": 0.30109538051650897
+        },
+        {
+            "PVS": {
+                "PVS_ID": "air_acrobatics_harmonic_0_cropped_8s_2000kbps_480p_24.0fps_h264",
+                "SRC": "air_acrobatics_harmonic_0_cropped_8s",
+                "bitrate": 2000.0,
+                "width": 854,
+                "height": 480,
+                "fps": 24.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 2.72,
+            "CI": 0.240578427056802
+        },
+        {
+            "PVS": {
+                "PVS_ID": "air_acrobatics_harmonic_0_cropped_8s_1000kbps_720p_24.0fps_h264",
+                "SRC": "air_acrobatics_harmonic_0_cropped_8s",
+                "bitrate": 1000.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 24.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 2.96,
+            "CI": 0.264897428812259
+        },
+        {
+            "PVS": {
+                "PVS_ID": "air_acrobatics_harmonic_0_cropped_8s_2000kbps_720p_24.0fps_h264",
+                "SRC": "air_acrobatics_harmonic_0_cropped_8s",
+                "bitrate": 2000.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 24.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 3.12,
+            "CI": 0.28447624239871
+        },
+        {
+            "PVS": {
+                "PVS_ID": "air_acrobatics_harmonic_0_cropped_8s_2000kbps_720p_30.0fps_h264",
+                "SRC": "air_acrobatics_harmonic_0_cropped_8s",
+                "bitrate": 2000.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 30.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 3.52,
+            "CI": 0.279938850362289
+        },
+        {
+            "PVS": {
+                "PVS_ID": "air_acrobatics_harmonic_0_cropped_8s_4000kbps_720p_30.0fps_h264",
+                "SRC": "air_acrobatics_harmonic_0_cropped_8s",
+                "bitrate": 4000.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 30.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 3.4,
+            "CI": 0.226317146815234
+        },
+        {
+            "PVS": {
+                "PVS_ID": "air_acrobatics_harmonic_0_cropped_8s_2000kbps_1080p_24.0fps_h264",
+                "SRC": "air_acrobatics_harmonic_0_cropped_8s",
+                "bitrate": 2000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 24.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 3.28,
+            "CI": 0.3103104377427
+        },
+        {
+            "PVS": {
+                "PVS_ID": "air_acrobatics_harmonic_0_cropped_8s_4000kbps_1080p_24.0fps_h264",
+                "SRC": "air_acrobatics_harmonic_0_cropped_8s",
+                "bitrate": 4000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 24.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 3.36,
+            "CI": 0.355685315733154
+        },
+        {
+            "PVS": {
+                "PVS_ID": "air_acrobatics_harmonic_0_cropped_8s_4000kbps_1080p_30.0fps_h264",
+                "SRC": "air_acrobatics_harmonic_0_cropped_8s",
+                "bitrate": 4000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 30.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 3.68,
+            "CI": 0.245843348724862
+        },
+        {
+            "PVS": {
+                "PVS_ID": "air_acrobatics_harmonic_0_cropped_8s_6000kbps_1080p_30.0fps_h264",
+                "SRC": "air_acrobatics_harmonic_0_cropped_8s",
+                "bitrate": 6000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 30.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 3.64,
+            "CI": 0.249975459095404
+        },
+        {
+            "PVS": {
+                "PVS_ID": "air_acrobatics_harmonic_0_cropped_8s_4000kbps_1440p_30.0fps_h264",
+                "SRC": "air_acrobatics_harmonic_0_cropped_8s",
+                "bitrate": 4000.0,
+                "width": 2560,
+                "height": 1440,
+                "fps": 30.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 3.6,
+            "CI": 0.25303026237633197
+        },
+        {
+            "PVS": {
+                "PVS_ID": "air_acrobatics_harmonic_0_cropped_8s_6000kbps_1440p_30.0fps_h264",
+                "SRC": "air_acrobatics_harmonic_0_cropped_8s",
+                "bitrate": 6000.0,
+                "width": 2560,
+                "height": 1440,
+                "fps": 30.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 3.88,
+            "CI": 0.30615616150085306
+        },
+        {
+            "PVS": {
+                "PVS_ID": "air_acrobatics_harmonic_0_cropped_8s_6000kbps_1440p_59.94fps_h264",
+                "SRC": "air_acrobatics_harmonic_0_cropped_8s",
+                "bitrate": 6000.0,
+                "width": 2560,
+                "height": 1440,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 3.8,
+            "CI": 0.320060778423687
+        },
+        {
+            "PVS": {
+                "PVS_ID": "air_acrobatics_harmonic_0_cropped_8s_8000kbps_1440p_59.94fps_h264",
+                "SRC": "air_acrobatics_harmonic_0_cropped_8s",
+                "bitrate": 8000.0,
+                "width": 2560,
+                "height": 1440,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 4.08,
+            "CI": 0.318456453642134
+        },
+        {
+            "PVS": {
+                "PVS_ID": "air_acrobatics_harmonic_0_cropped_8s_6000kbps_2160p_30.0fps_h264",
+                "SRC": "air_acrobatics_harmonic_0_cropped_8s",
+                "bitrate": 6000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 30.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 3.72,
+            "CI": 0.33029900167532
+        },
+        {
+            "PVS": {
+                "PVS_ID": "air_acrobatics_harmonic_0_cropped_8s_8000kbps_2160p_30.0fps_h264",
+                "SRC": "air_acrobatics_harmonic_0_cropped_8s",
+                "bitrate": 8000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 30.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 3.76,
+            "CI": 0.325613672088808
+        },
+        {
+            "PVS": {
+                "PVS_ID": "air_acrobatics_harmonic_0_cropped_8s_8000kbps_2160p_59.94fps_h264",
+                "SRC": "air_acrobatics_harmonic_0_cropped_8s",
+                "bitrate": 8000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 4.2,
+            "CI": 0.320060778423687
+        },
+        {
+            "PVS": {
+                "PVS_ID": "air_acrobatics_harmonic_0_cropped_8s_15000kbps_2160p_59.94fps_h264",
+                "SRC": "air_acrobatics_harmonic_0_cropped_8s",
+                "bitrate": 15000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 4.16,
+            "CI": 0.352066856266056
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Daydreamer_SDR_8s_3840x2160_8_200kbps_360p_15.0fps_h264",
+                "SRC": "Daydreamer_SDR_8s_3840x2160_8",
+                "bitrate": 200.0,
+                "width": 640,
+                "height": 360,
+                "fps": 15.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 1.52,
+            "CI": 0.229686818234887
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Daydreamer_SDR_8s_3840x2160_8_500kbps_360p_15.0fps_h264",
+                "SRC": "Daydreamer_SDR_8s_3840x2160_8",
+                "bitrate": 500.0,
+                "width": 640,
+                "height": 360,
+                "fps": 15.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 1.88,
+            "CI": 0.28447624239871
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Daydreamer_SDR_8s_3840x2160_8_500kbps_360p_24.0fps_h264",
+                "SRC": "Daydreamer_SDR_8s_3840x2160_8",
+                "bitrate": 500.0,
+                "width": 640,
+                "height": 360,
+                "fps": 24.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 2.12,
+            "CI": 0.3454581316110981
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Daydreamer_SDR_8s_3840x2160_8_1000kbps_360p_24.0fps_h264",
+                "SRC": "Daydreamer_SDR_8s_3840x2160_8",
+                "bitrate": 1000.0,
+                "width": 640,
+                "height": 360,
+                "fps": 24.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 2.28,
+            "CI": 0.3103104377427
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Daydreamer_SDR_8s_3840x2160_8_500kbps_480p_15.0fps_h264",
+                "SRC": "Daydreamer_SDR_8s_3840x2160_8",
+                "bitrate": 500.0,
+                "width": 854,
+                "height": 480,
+                "fps": 15.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 1.8,
+            "CI": 0.277180764869935
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Daydreamer_SDR_8s_3840x2160_8_1000kbps_480p_15.0fps_h264",
+                "SRC": "Daydreamer_SDR_8s_3840x2160_8",
+                "bitrate": 1000.0,
+                "width": 854,
+                "height": 480,
+                "fps": 15.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 2.4,
+            "CI": 0.35783882874343104
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Daydreamer_SDR_8s_3840x2160_8_1000kbps_480p_24.0fps_h264",
+                "SRC": "Daydreamer_SDR_8s_3840x2160_8",
+                "bitrate": 1000.0,
+                "width": 854,
+                "height": 480,
+                "fps": 24.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 2.4,
+            "CI": 0.25303026237633197
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Daydreamer_SDR_8s_3840x2160_8_2000kbps_480p_24.0fps_h264",
+                "SRC": "Daydreamer_SDR_8s_3840x2160_8",
+                "bitrate": 2000.0,
+                "width": 854,
+                "height": 480,
+                "fps": 24.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 3.0,
+            "CI": 0.33947572022285105
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Daydreamer_SDR_8s_3840x2160_8_1000kbps_720p_24.0fps_h264",
+                "SRC": "Daydreamer_SDR_8s_3840x2160_8",
+                "bitrate": 1000.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 24.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 2.48,
+            "CI": 0.32245229943893106
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Daydreamer_SDR_8s_3840x2160_8_2000kbps_720p_24.0fps_h264",
+                "SRC": "Daydreamer_SDR_8s_3840x2160_8",
+                "bitrate": 2000.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 24.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 2.92,
+            "CI": 0.390683969224376
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Daydreamer_SDR_8s_3840x2160_8_2000kbps_720p_30.0fps_h264",
+                "SRC": "Daydreamer_SDR_8s_3840x2160_8",
+                "bitrate": 2000.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 30.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 2.92,
+            "CI": 0.297673731005404
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Daydreamer_SDR_8s_3840x2160_8_4000kbps_720p_30.0fps_h264",
+                "SRC": "Daydreamer_SDR_8s_3840x2160_8",
+                "bitrate": 4000.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 30.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 3.64,
+            "CI": 0.317651252723642
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Daydreamer_SDR_8s_3840x2160_8_2000kbps_1080p_24.0fps_h264",
+                "SRC": "Daydreamer_SDR_8s_3840x2160_8",
+                "bitrate": 2000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 24.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 2.84,
+            "CI": 0.352066856266056
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Daydreamer_SDR_8s_3840x2160_8_4000kbps_1080p_24.0fps_h264",
+                "SRC": "Daydreamer_SDR_8s_3840x2160_8",
+                "bitrate": 4000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 24.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 3.08,
+            "CI": 0.3564045992094079
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Daydreamer_SDR_8s_3840x2160_8_4000kbps_1080p_30.0fps_h264",
+                "SRC": "Daydreamer_SDR_8s_3840x2160_8",
+                "bitrate": 4000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 30.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 3.2,
+            "CI": 0.43826127028829104
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Daydreamer_SDR_8s_3840x2160_8_6000kbps_1080p_30.0fps_h264",
+                "SRC": "Daydreamer_SDR_8s_3840x2160_8",
+                "bitrate": 6000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 30.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 3.6,
+            "CI": 0.35783882874343104
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Daydreamer_SDR_8s_3840x2160_8_4000kbps_1440p_30.0fps_h264",
+                "SRC": "Daydreamer_SDR_8s_3840x2160_8",
+                "bitrate": 4000.0,
+                "width": 2560,
+                "height": 1440,
+                "fps": 30.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 3.24,
+            "CI": 0.344716008022263
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Daydreamer_SDR_8s_3840x2160_8_6000kbps_1440p_30.0fps_h264",
+                "SRC": "Daydreamer_SDR_8s_3840x2160_8",
+                "bitrate": 6000.0,
+                "width": 2560,
+                "height": 1440,
+                "fps": 30.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 3.56,
+            "CI": 0.32165710143571896
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Daydreamer_SDR_8s_3840x2160_8_6000kbps_1440p_60.0fps_h264",
+                "SRC": "Daydreamer_SDR_8s_3840x2160_8",
+                "bitrate": 6000.0,
+                "width": 2560,
+                "height": 1440,
+                "fps": 60.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 3.44,
+            "CI": 0.409252494900475
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Daydreamer_SDR_8s_3840x2160_8_8000kbps_1440p_60.0fps_h264",
+                "SRC": "Daydreamer_SDR_8s_3840x2160_8",
+                "bitrate": 8000.0,
+                "width": 2560,
+                "height": 1440,
+                "fps": 60.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 3.56,
+            "CI": 0.4092524949004761
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Daydreamer_SDR_8s_3840x2160_8_6000kbps_2160p_30.0fps_h264",
+                "SRC": "Daydreamer_SDR_8s_3840x2160_8",
+                "bitrate": 6000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 30.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 3.56,
+            "CI": 0.42460860485617896
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Daydreamer_SDR_8s_3840x2160_8_8000kbps_2160p_30.0fps_h264",
+                "SRC": "Daydreamer_SDR_8s_3840x2160_8",
+                "bitrate": 8000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 30.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 3.52,
+            "CI": 0.4098777855552671
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Daydreamer_SDR_8s_3840x2160_8_8000kbps_2160p_60.0fps_h264",
+                "SRC": "Daydreamer_SDR_8s_3840x2160_8",
+                "bitrate": 8000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 60.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 3.64,
+            "CI": 0.33720495413404905
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Daydreamer_SDR_8s_3840x2160_8_15000kbps_2160p_60.0fps_h264",
+                "SRC": "Daydreamer_SDR_8s_3840x2160_8",
+                "bitrate": 15000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 60.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 4.16,
+            "CI": 0.369805264993227
+        },
+        {
+            "PVS": {
+                "PVS_ID": "fr-041_debris_3840x2160_60p_422_ffvhuff_4_8s_200kbps_360p_15.0fps_h264",
+                "SRC": "fr-041_debris_3840x2160_60p_422_ffvhuff48s",
+                "bitrate": 200.0,
+                "width": 640,
+                "height": 360,
+                "fps": 15.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 1.08,
+            "CI": 0.108537890696269
+        },
+        {
+            "PVS": {
+                "PVS_ID": "fr-041_debris_3840x2160_60p_422_ffvhuff_4_8s_500kbps_360p_15.0fps_h264",
+                "SRC": "fr-041_debris_3840x2160_60p_422_ffvhuff48s",
+                "bitrate": 500.0,
+                "width": 640,
+                "height": 360,
+                "fps": 15.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 1.48,
+            "CI": 0.25604862273895
+        },
+        {
+            "PVS": {
+                "PVS_ID": "fr-041_debris_3840x2160_60p_422_ffvhuff_4_8s_500kbps_360p_24.0fps_h264",
+                "SRC": "fr-041_debris_3840x2160_60p_422_ffvhuff48s",
+                "bitrate": 500.0,
+                "width": 640,
+                "height": 360,
+                "fps": 24.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 1.36,
+            "CI": 0.24997545909540306
+        },
+        {
+            "PVS": {
+                "PVS_ID": "fr-041_debris_3840x2160_60p_422_ffvhuff_4_8s_1000kbps_360p_24.0fps_h264",
+                "SRC": "fr-041_debris_3840x2160_60p_422_ffvhuff48s",
+                "bitrate": 1000.0,
+                "width": 640,
+                "height": 360,
+                "fps": 24.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 1.84,
+            "CI": 0.29246620843120097
+        },
+        {
+            "PVS": {
+                "PVS_ID": "fr-041_debris_3840x2160_60p_422_ffvhuff_4_8s_500kbps_480p_15.0fps_h264",
+                "SRC": "fr-041_debris_3840x2160_60p_422_ffvhuff48s",
+                "bitrate": 500.0,
+                "width": 854,
+                "height": 480,
+                "fps": 15.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 1.6,
+            "CI": 0.277180764869935
+        },
+        {
+            "PVS": {
+                "PVS_ID": "fr-041_debris_3840x2160_60p_422_ffvhuff_4_8s_1000kbps_480p_15.0fps_h264",
+                "SRC": "fr-041_debris_3840x2160_60p_422_ffvhuff48s",
+                "bitrate": 1000.0,
+                "width": 854,
+                "height": 480,
+                "fps": 15.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 1.8,
+            "CI": 0.33947572022285105
+        },
+        {
+            "PVS": {
+                "PVS_ID": "fr-041_debris_3840x2160_60p_422_ffvhuff_4_8s_1000kbps_480p_24.0fps_h264",
+                "SRC": "fr-041_debris_3840x2160_60p_422_ffvhuff48s",
+                "bitrate": 1000.0,
+                "width": 854,
+                "height": 480,
+                "fps": 24.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 1.92,
+            "CI": 0.275326692122342
+        },
+        {
+            "PVS": {
+                "PVS_ID": "fr-041_debris_3840x2160_60p_422_ffvhuff_4_8s_2000kbps_480p_24.0fps_h264",
+                "SRC": "fr-041_debris_3840x2160_60p_422_ffvhuff48s",
+                "bitrate": 2000.0,
+                "width": 854,
+                "height": 480,
+                "fps": 24.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 2.48,
+            "CI": 0.279938850362289
+        },
+        {
+            "PVS": {
+                "PVS_ID": "fr-041_debris_3840x2160_60p_422_ffvhuff_4_8s_1000kbps_720p_24.0fps_h264",
+                "SRC": "fr-041_debris_3840x2160_60p_422_ffvhuff48s",
+                "bitrate": 1000.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 24.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 2.0,
+            "CI": 0.320060778423687
+        },
+        {
+            "PVS": {
+                "PVS_ID": "fr-041_debris_3840x2160_60p_422_ffvhuff_4_8s_2000kbps_720p_24.0fps_h264",
+                "SRC": "fr-041_debris_3840x2160_60p_422_ffvhuff48s",
+                "bitrate": 2000.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 24.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 2.56,
+            "CI": 0.30109538051650897
+        },
+        {
+            "PVS": {
+                "PVS_ID": "fr-041_debris_3840x2160_60p_422_ffvhuff_4_8s_2000kbps_720p_30.0fps_h264",
+                "SRC": "fr-041_debris_3840x2160_60p_422_ffvhuff48s",
+                "bitrate": 2000.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 30.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 2.76,
+            "CI": 0.305318523374378
+        },
+        {
+            "PVS": {
+                "PVS_ID": "fr-041_debris_3840x2160_60p_422_ffvhuff_4_8s_4000kbps_720p_30.0fps_h264",
+                "SRC": "fr-041_debris_3840x2160_60p_422_ffvhuff48s",
+                "bitrate": 4000.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 30.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 3.48,
+            "CI": 0.35997945897613204
+        },
+        {
+            "PVS": {
+                "PVS_ID": "fr-041_debris_3840x2160_60p_422_ffvhuff_4_8s_2000kbps_1080p_24.0fps_h264",
+                "SRC": "fr-041_debris_3840x2160_60p_422_ffvhuff48s",
+                "bitrate": 2000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 24.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 2.64,
+            "CI": 0.33720495413404905
+        },
+        {
+            "PVS": {
+                "PVS_ID": "fr-041_debris_3840x2160_60p_422_ffvhuff_4_8s_4000kbps_1080p_24.0fps_h264",
+                "SRC": "fr-041_debris_3840x2160_60p_422_ffvhuff48s",
+                "bitrate": 4000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 24.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 3.24,
+            "CI": 0.305318523374378
+        },
+        {
+            "PVS": {
+                "PVS_ID": "fr-041_debris_3840x2160_60p_422_ffvhuff_4_8s_4000kbps_1080p_30.0fps_h264",
+                "SRC": "fr-041_debris_3840x2160_60p_422_ffvhuff48s",
+                "bitrate": 4000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 30.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 3.72,
+            "CI": 0.349145089101021
+        },
+        {
+            "PVS": {
+                "PVS_ID": "fr-041_debris_3840x2160_60p_422_ffvhuff_4_8s_6000kbps_1080p_30.0fps_h264",
+                "SRC": "fr-041_debris_3840x2160_60p_422_ffvhuff48s",
+                "bitrate": 6000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 30.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 3.92,
+            "CI": 0.337963571412618
+        },
+        {
+            "PVS": {
+                "PVS_ID": "fr-041_debris_3840x2160_60p_422_ffvhuff_4_8s_4000kbps_1440p_30.0fps_h264",
+                "SRC": "fr-041_debris_3840x2160_60p_422_ffvhuff48s",
+                "bitrate": 4000.0,
+                "width": 2560,
+                "height": 1440,
+                "fps": 30.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 3.72,
+            "CI": 0.400395905886039
+        },
+        {
+            "PVS": {
+                "PVS_ID": "fr-041_debris_3840x2160_60p_422_ffvhuff_4_8s_6000kbps_1440p_30.0fps_h264",
+                "SRC": "fr-041_debris_3840x2160_60p_422_ffvhuff48s",
+                "bitrate": 6000.0,
+                "width": 2560,
+                "height": 1440,
+                "fps": 30.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 4.0,
+            "CI": 0.277180764869935
+        },
+        {
+            "PVS": {
+                "PVS_ID": "fr-041_debris_3840x2160_60p_422_ffvhuff_4_8s_6000kbps_1440p_60.0fps_h264",
+                "SRC": "fr-041_debris_3840x2160_60p_422_ffvhuff48s",
+                "bitrate": 6000.0,
+                "width": 2560,
+                "height": 1440,
+                "fps": 60.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 4.24,
+            "CI": 0.305318523374378
+        },
+        {
+            "PVS": {
+                "PVS_ID": "fr-041_debris_3840x2160_60p_422_ffvhuff_4_8s_8000kbps_1440p_60.0fps_h264",
+                "SRC": "fr-041_debris_3840x2160_60p_422_ffvhuff48s",
+                "bitrate": 8000.0,
+                "width": 2560,
+                "height": 1440,
+                "fps": 60.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 4.2,
+            "CI": 0.33947572022285105
+        },
+        {
+            "PVS": {
+                "PVS_ID": "fr-041_debris_3840x2160_60p_422_ffvhuff_4_8s_6000kbps_2160p_30.0fps_h264",
+                "SRC": "fr-041_debris_3840x2160_60p_422_ffvhuff48s",
+                "bitrate": 6000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 30.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 3.88,
+            "CI": 0.30615616150085306
+        },
+        {
+            "PVS": {
+                "PVS_ID": "fr-041_debris_3840x2160_60p_422_ffvhuff_4_8s_8000kbps_2160p_30.0fps_h264",
+                "SRC": "fr-041_debris_3840x2160_60p_422_ffvhuff48s",
+                "bitrate": 8000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 30.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 4.16,
+            "CI": 0.31359423752640897
+        },
+        {
+            "PVS": {
+                "PVS_ID": "fr-041_debris_3840x2160_60p_422_ffvhuff_4_8s_8000kbps_2160p_60.0fps_h264",
+                "SRC": "fr-041_debris_3840x2160_60p_422_ffvhuff48s",
+                "bitrate": 8000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 60.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 4.32,
+            "CI": 0.37049713700126796
+        },
+        {
+            "PVS": {
+                "PVS_ID": "fr-041_debris_3840x2160_60p_422_ffvhuff_4_8s_15000kbps_2160p_60.0fps_h264",
+                "SRC": "fr-041_debris_3840x2160_60p_422_ffvhuff48s",
+                "bitrate": 15000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 60.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 4.72,
+            "CI": 0.21230430242809
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Giftmord-SDR_8s_11_3840x2160_200kbps_360p_15.0fps_h264",
+                "SRC": "Giftmord-SDR_8s_11_3840x2160",
+                "bitrate": 200.0,
+                "width": 640,
+                "height": 360,
+                "fps": 15.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 1.48,
+            "CI": 0.25604862273895
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Giftmord-SDR_8s_11_3840x2160_500kbps_360p_15.0fps_h264",
+                "SRC": "Giftmord-SDR_8s_11_3840x2160",
+                "bitrate": 500.0,
+                "width": 640,
+                "height": 360,
+                "fps": 15.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 1.72,
+            "CI": 0.240578427056802
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Giftmord-SDR_8s_11_3840x2160_500kbps_360p_24.0fps_h264",
+                "SRC": "Giftmord-SDR_8s_11_3840x2160",
+                "bitrate": 500.0,
+                "width": 640,
+                "height": 360,
+                "fps": 24.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 2.12,
+            "CI": 0.26100166618939896
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Giftmord-SDR_8s_11_3840x2160_1000kbps_360p_24.0fps_h264",
+                "SRC": "Giftmord-SDR_8s_11_3840x2160",
+                "bitrate": 1000.0,
+                "width": 640,
+                "height": 360,
+                "fps": 24.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 2.52,
+            "CI": 0.279938850362289
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Giftmord-SDR_8s_11_3840x2160_500kbps_480p_15.0fps_h264",
+                "SRC": "Giftmord-SDR_8s_11_3840x2160",
+                "bitrate": 500.0,
+                "width": 854,
+                "height": 480,
+                "fps": 15.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 1.92,
+            "CI": 0.297673731005404
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Giftmord-SDR_8s_11_3840x2160_1000kbps_480p_15.0fps_h264",
+                "SRC": "Giftmord-SDR_8s_11_3840x2160",
+                "bitrate": 1000.0,
+                "width": 854,
+                "height": 480,
+                "fps": 15.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 2.08,
+            "CI": 0.318456453642134
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Giftmord-SDR_8s_11_3840x2160_1000kbps_480p_24.0fps_h264",
+                "SRC": "Giftmord-SDR_8s_11_3840x2160",
+                "bitrate": 1000.0,
+                "width": 854,
+                "height": 480,
+                "fps": 24.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 2.64,
+            "CI": 0.29681215544726597
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Giftmord-SDR_8s_11_3840x2160_2000kbps_480p_24.0fps_h264",
+                "SRC": "Giftmord-SDR_8s_11_3840x2160",
+                "bitrate": 2000.0,
+                "width": 854,
+                "height": 480,
+                "fps": 24.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 3.16,
+            "CI": 0.333385975328022
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Giftmord-SDR_8s_11_3840x2160_1000kbps_720p_24.0fps_h264",
+                "SRC": "Giftmord-SDR_8s_11_3840x2160",
+                "bitrate": 1000.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 24.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 2.72,
+            "CI": 0.240578427056802
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Giftmord-SDR_8s_11_3840x2160_2000kbps_720p_24.0fps_h264",
+                "SRC": "Giftmord-SDR_8s_11_3840x2160",
+                "bitrate": 2000.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 24.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 3.2,
+            "CI": 0.375304529804954
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Giftmord-SDR_8s_11_3840x2160_2000kbps_720p_30.0fps_h264",
+                "SRC": "Giftmord-SDR_8s_11_3840x2160",
+                "bitrate": 2000.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 30.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 3.24,
+            "CI": 0.260018605573172
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Giftmord-SDR_8s_11_3840x2160_4000kbps_720p_30.0fps_h264",
+                "SRC": "Giftmord-SDR_8s_11_3840x2160",
+                "bitrate": 4000.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 30.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 3.68,
+            "CI": 0.31440982859827304
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Giftmord-SDR_8s_11_3840x2160_2000kbps_1080p_24.0fps_h264",
+                "SRC": "Giftmord-SDR_8s_11_3840x2160",
+                "bitrate": 2000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 24.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 2.88,
+            "CI": 0.3263992309436161
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Giftmord-SDR_8s_11_3840x2160_4000kbps_1080p_24.0fps_h264",
+                "SRC": "Giftmord-SDR_8s_11_3840x2160",
+                "bitrate": 4000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 24.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 3.24,
+            "CI": 0.344716008022263
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Giftmord-SDR_8s_11_3840x2160_4000kbps_1080p_30.0fps_h264",
+                "SRC": "Giftmord-SDR_8s_11_3840x2160",
+                "bitrate": 4000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 30.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 3.72,
+            "CI": 0.28894239051482
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Giftmord-SDR_8s_11_3840x2160_6000kbps_1080p_30.0fps_h264",
+                "SRC": "Giftmord-SDR_8s_11_3840x2160",
+                "bitrate": 6000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 30.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 3.72,
+            "CI": 0.28894239051482
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Giftmord-SDR_8s_11_3840x2160_4000kbps_1440p_30.0fps_h264",
+                "SRC": "Giftmord-SDR_8s_11_3840x2160",
+                "bitrate": 4000.0,
+                "width": 2560,
+                "height": 1440,
+                "fps": 30.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 3.56,
+            "CI": 0.376666801179729
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Giftmord-SDR_8s_11_3840x2160_6000kbps_1440p_30.0fps_h264",
+                "SRC": "Giftmord-SDR_8s_11_3840x2160",
+                "bitrate": 6000.0,
+                "width": 2560,
+                "height": 1440,
+                "fps": 30.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 3.88,
+            "CI": 0.28447624239871
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Giftmord-SDR_8s_11_3840x2160_6000kbps_1440p_60.0fps_h264",
+                "SRC": "Giftmord-SDR_8s_11_3840x2160",
+                "bitrate": 6000.0,
+                "width": 2560,
+                "height": 1440,
+                "fps": 60.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 3.92,
+            "CI": 0.318456453642134
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Giftmord-SDR_8s_11_3840x2160_8000kbps_1440p_60.0fps_h264",
+                "SRC": "Giftmord-SDR_8s_11_3840x2160",
+                "bitrate": 8000.0,
+                "width": 2560,
+                "height": 1440,
+                "fps": 60.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 4.2,
+            "CI": 0.277180764869935
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Giftmord-SDR_8s_11_3840x2160_6000kbps_2160p_30.0fps_h264",
+                "SRC": "Giftmord-SDR_8s_11_3840x2160",
+                "bitrate": 6000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 30.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 3.8,
+            "CI": 0.277180764869935
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Giftmord-SDR_8s_11_3840x2160_8000kbps_2160p_30.0fps_h264",
+                "SRC": "Giftmord-SDR_8s_11_3840x2160",
+                "bitrate": 8000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 30.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 3.96,
+            "CI": 0.329522739728668
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Giftmord-SDR_8s_11_3840x2160_8000kbps_2160p_60.0fps_h264",
+                "SRC": "Giftmord-SDR_8s_11_3840x2160",
+                "bitrate": 8000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 60.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 4.12,
+            "CI": 0.28447624239871
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Giftmord-SDR_8s_11_3840x2160_15000kbps_2160p_60.0fps_h264",
+                "SRC": "Giftmord-SDR_8s_11_3840x2160",
+                "bitrate": 15000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 60.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 8
+            },
+            "MOS": 4.44,
+            "CI": 0.279022517787963
+        },
+        {
+            "PVS": {
+                "PVS_ID": "monkeys_harmonic_0_cropped_8s_200kbps_360p_15.0fps_h264",
+                "SRC": "monkeys_harmonic_0_cropped_8s",
+                "bitrate": 200.0,
+                "width": 640,
+                "height": 360,
+                "fps": 15.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 0
+            },
+            "MOS": 1.08,
+            "CI": 0.108537890696269
+        },
+        {
+            "PVS": {
+                "PVS_ID": "monkeys_harmonic_0_cropped_8s_500kbps_360p_15.0fps_h264",
+                "SRC": "monkeys_harmonic_0_cropped_8s",
+                "bitrate": 500.0,
+                "width": 640,
+                "height": 360,
+                "fps": 15.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 0
+            },
+            "MOS": 1.88,
+            "CI": 0.26100166618939896
+        },
+        {
+            "PVS": {
+                "PVS_ID": "monkeys_harmonic_0_cropped_8s_500kbps_360p_24.0fps_h264",
+                "SRC": "monkeys_harmonic_0_cropped_8s",
+                "bitrate": 500.0,
+                "width": 640,
+                "height": 360,
+                "fps": 24.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 0
+            },
+            "MOS": 1.92,
+            "CI": 0.275326692122342
+        },
+        {
+            "PVS": {
+                "PVS_ID": "monkeys_harmonic_0_cropped_8s_1000kbps_360p_24.0fps_h264",
+                "SRC": "monkeys_harmonic_0_cropped_8s",
+                "bitrate": 1000.0,
+                "width": 640,
+                "height": 360,
+                "fps": 24.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 0
+            },
+            "MOS": 2.44,
+            "CI": 0.25504647164210503
+        },
+        {
+            "PVS": {
+                "PVS_ID": "monkeys_harmonic_0_cropped_8s_500kbps_480p_15.0fps_h264",
+                "SRC": "monkeys_harmonic_0_cropped_8s",
+                "bitrate": 500.0,
+                "width": 854,
+                "height": 480,
+                "fps": 15.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 0
+            },
+            "MOS": 1.76,
+            "CI": 0.23410427699760106
+        },
+        {
+            "PVS": {
+                "PVS_ID": "monkeys_harmonic_0_cropped_8s_1000kbps_480p_15.0fps_h264",
+                "SRC": "monkeys_harmonic_0_cropped_8s",
+                "bitrate": 1000.0,
+                "width": 854,
+                "height": 480,
+                "fps": 15.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 0
+            },
+            "MOS": 2.6,
+            "CI": 0.277180764869935
+        },
+        {
+            "PVS": {
+                "PVS_ID": "monkeys_harmonic_0_cropped_8s_1000kbps_480p_24.0fps_h264",
+                "SRC": "monkeys_harmonic_0_cropped_8s",
+                "bitrate": 1000.0,
+                "width": 854,
+                "height": 480,
+                "fps": 24.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 0
+            },
+            "MOS": 2.68,
+            "CI": 0.31440982859827304
+        },
+        {
+            "PVS": {
+                "PVS_ID": "monkeys_harmonic_0_cropped_8s_2000kbps_480p_24.0fps_h264",
+                "SRC": "monkeys_harmonic_0_cropped_8s",
+                "bitrate": 2000.0,
+                "width": 854,
+                "height": 480,
+                "fps": 24.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 0
+            },
+            "MOS": 3.28,
+            "CI": 0.240578427056802
+        },
+        {
+            "PVS": {
+                "PVS_ID": "monkeys_harmonic_0_cropped_8s_1000kbps_720p_24.0fps_h264",
+                "SRC": "monkeys_harmonic_0_cropped_8s",
+                "bitrate": 1000.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 24.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 0
+            },
+            "MOS": 2.6,
+            "CI": 0.277180764869935
+        },
+        {
+            "PVS": {
+                "PVS_ID": "monkeys_harmonic_0_cropped_8s_2000kbps_720p_24.0fps_h264",
+                "SRC": "monkeys_harmonic_0_cropped_8s",
+                "bitrate": 2000.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 24.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 0
+            },
+            "MOS": 3.32,
+            "CI": 0.270635945225133
+        },
+        {
+            "PVS": {
+                "PVS_ID": "monkeys_harmonic_0_cropped_8s_2000kbps_720p_30.0fps_h264",
+                "SRC": "monkeys_harmonic_0_cropped_8s",
+                "bitrate": 2000.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 30.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 0
+            },
+            "MOS": 3.6,
+            "CI": 0.226317146815234
+        },
+        {
+            "PVS": {
+                "PVS_ID": "monkeys_harmonic_0_cropped_8s_4000kbps_720p_30.0fps_h264",
+                "SRC": "monkeys_harmonic_0_cropped_8s",
+                "bitrate": 4000.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 30.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 0
+            },
+            "MOS": 4.08,
+            "CI": 0.337963571412618
+        },
+        {
+            "PVS": {
+                "PVS_ID": "monkeys_harmonic_0_cropped_8s_2000kbps_1080p_24.0fps_h264",
+                "SRC": "monkeys_harmonic_0_cropped_8s",
+                "bitrate": 2000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 24.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 0
+            },
+            "MOS": 3.56,
+            "CI": 0.32165710143571896
+        },
+        {
+            "PVS": {
+                "PVS_ID": "monkeys_harmonic_0_cropped_8s_4000kbps_1080p_24.0fps_h264",
+                "SRC": "monkeys_harmonic_0_cropped_8s",
+                "bitrate": 4000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 24.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 0
+            },
+            "MOS": 4.4,
+            "CI": 0.226317146815234
+        },
+        {
+            "PVS": {
+                "PVS_ID": "monkeys_harmonic_0_cropped_8s_4000kbps_1080p_30.0fps_h264",
+                "SRC": "monkeys_harmonic_0_cropped_8s",
+                "bitrate": 4000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 30.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 0
+            },
+            "MOS": 4.52,
+            "CI": 0.229686818234887
+        },
+        {
+            "PVS": {
+                "PVS_ID": "monkeys_harmonic_0_cropped_8s_6000kbps_1080p_30.0fps_h264",
+                "SRC": "monkeys_harmonic_0_cropped_8s",
+                "bitrate": 6000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 30.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 0
+            },
+            "MOS": 4.6,
+            "CI": 0.25303026237633197
+        },
+        {
+            "PVS": {
+                "PVS_ID": "monkeys_harmonic_0_cropped_8s_4000kbps_1440p_30.0fps_h264",
+                "SRC": "monkeys_harmonic_0_cropped_8s",
+                "bitrate": 4000.0,
+                "width": 2560,
+                "height": 1440,
+                "fps": 30.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 0
+            },
+            "MOS": 4.4,
+            "CI": 0.226317146815234
+        },
+        {
+            "PVS": {
+                "PVS_ID": "monkeys_harmonic_0_cropped_8s_6000kbps_1440p_30.0fps_h264",
+                "SRC": "monkeys_harmonic_0_cropped_8s",
+                "bitrate": 6000.0,
+                "width": 2560,
+                "height": 1440,
+                "fps": 30.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 0
+            },
+            "MOS": 4.4,
+            "CI": 0.25303026237633197
+        },
+        {
+            "PVS": {
+                "PVS_ID": "monkeys_harmonic_0_cropped_8s_6000kbps_1440p_59.94fps_h264",
+                "SRC": "monkeys_harmonic_0_cropped_8s",
+                "bitrate": 6000.0,
+                "width": 2560,
+                "height": 1440,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 0
+            },
+            "MOS": 4.8,
+            "CI": 0.19599639845400504
+        },
+        {
+            "PVS": {
+                "PVS_ID": "monkeys_harmonic_0_cropped_8s_8000kbps_1440p_59.94fps_h264",
+                "SRC": "monkeys_harmonic_0_cropped_8s",
+                "bitrate": 8000.0,
+                "width": 2560,
+                "height": 1440,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 0
+            },
+            "MOS": 4.84,
+            "CI": 0.18524856850063398
+        },
+        {
+            "PVS": {
+                "PVS_ID": "monkeys_harmonic_0_cropped_8s_6000kbps_2160p_30.0fps_h264",
+                "SRC": "monkeys_harmonic_0_cropped_8s",
+                "bitrate": 6000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 30.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 0
+            },
+            "MOS": 4.8,
+            "CI": 0.160030389211844
+        },
+        {
+            "PVS": {
+                "PVS_ID": "monkeys_harmonic_0_cropped_8s_8000kbps_2160p_30.0fps_h264",
+                "SRC": "monkeys_harmonic_0_cropped_8s",
+                "bitrate": 8000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 30.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 0
+            },
+            "MOS": 4.84,
+            "CI": 0.146670274411304
+        },
+        {
+            "PVS": {
+                "PVS_ID": "monkeys_harmonic_0_cropped_8s_8000kbps_2160p_59.94fps_h264",
+                "SRC": "monkeys_harmonic_0_cropped_8s",
+                "bitrate": 8000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 0
+            },
+            "MOS": 4.76,
+            "CI": 0.23410427699760106
+        },
+        {
+            "PVS": {
+                "PVS_ID": "monkeys_harmonic_0_cropped_8s_15000kbps_2160p_59.94fps_h264",
+                "SRC": "monkeys_harmonic_0_cropped_8s",
+                "bitrate": 15000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 0
+            },
+            "MOS": 4.88,
+            "CI": 0.23519567814480602
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Sparks_cut_13_200kbps_360p_15.0fps_h264",
+                "SRC": "Sparks_cut_13",
+                "bitrate": 200.0,
+                "width": 640,
+                "height": 360,
+                "fps": 15.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 1.32,
+            "CI": 0.218252352511049
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Sparks_cut_13_500kbps_360p_15.0fps_h264",
+                "SRC": "Sparks_cut_13",
+                "bitrate": 500.0,
+                "width": 640,
+                "height": 360,
+                "fps": 15.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 1.8,
+            "CI": 0.277180764869935
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Sparks_cut_13_500kbps_360p_24.0fps_h264",
+                "SRC": "Sparks_cut_13",
+                "bitrate": 500.0,
+                "width": 640,
+                "height": 360,
+                "fps": 24.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 1.68,
+            "CI": 0.218252352511049
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Sparks_cut_13_1000kbps_360p_24.0fps_h264",
+                "SRC": "Sparks_cut_13",
+                "bitrate": 1000.0,
+                "width": 640,
+                "height": 360,
+                "fps": 24.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 2.28,
+            "CI": 0.28894239051482
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Sparks_cut_13_500kbps_480p_15.0fps_h264",
+                "SRC": "Sparks_cut_13",
+                "bitrate": 500.0,
+                "width": 854,
+                "height": 480,
+                "fps": 15.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 1.84,
+            "CI": 0.2170757813925389
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Sparks_cut_13_1000kbps_480p_15.0fps_h264",
+                "SRC": "Sparks_cut_13",
+                "bitrate": 1000.0,
+                "width": 854,
+                "height": 480,
+                "fps": 15.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 2.24,
+            "CI": 0.23410427699760106
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Sparks_cut_13_1000kbps_480p_24.0fps_h264",
+                "SRC": "Sparks_cut_13",
+                "bitrate": 1000.0,
+                "width": 854,
+                "height": 480,
+                "fps": 24.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 2.52,
+            "CI": 0.25604862273895
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Sparks_cut_13_2000kbps_480p_24.0fps_h264",
+                "SRC": "Sparks_cut_13",
+                "bitrate": 2000.0,
+                "width": 854,
+                "height": 480,
+                "fps": 24.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 2.68,
+            "CI": 0.31440982859827304
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Sparks_cut_13_1000kbps_720p_24.0fps_h264",
+                "SRC": "Sparks_cut_13",
+                "bitrate": 1000.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 24.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 2.64,
+            "CI": 0.274394957835608
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Sparks_cut_13_2000kbps_720p_24.0fps_h264",
+                "SRC": "Sparks_cut_13",
+                "bitrate": 2000.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 24.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 2.92,
+            "CI": 0.3564045992094079
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Sparks_cut_13_2000kbps_720p_30.0fps_h264",
+                "SRC": "Sparks_cut_13",
+                "bitrate": 2000.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 30.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 3.04,
+            "CI": 0.239511555161121
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Sparks_cut_13_4000kbps_720p_30.0fps_h264",
+                "SRC": "Sparks_cut_13",
+                "bitrate": 4000.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 30.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 3.8,
+            "CI": 0.277180764869935
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Sparks_cut_13_2000kbps_1080p_24.0fps_h264",
+                "SRC": "Sparks_cut_13",
+                "bitrate": 2000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 24.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 3.32,
+            "CI": 0.31440982859827304
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Sparks_cut_13_4000kbps_1080p_24.0fps_h264",
+                "SRC": "Sparks_cut_13",
+                "bitrate": 4000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 24.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 3.6,
+            "CI": 0.299389443951402
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Sparks_cut_13_4000kbps_1080p_30.0fps_h264",
+                "SRC": "Sparks_cut_13",
+                "bitrate": 4000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 30.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 3.88,
+            "CI": 0.30615616150085306
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Sparks_cut_13_6000kbps_1080p_30.0fps_h264",
+                "SRC": "Sparks_cut_13",
+                "bitrate": 6000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 30.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 4.16,
+            "CI": 0.29246620843120097
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Sparks_cut_13_4000kbps_1440p_30.0fps_h264",
+                "SRC": "Sparks_cut_13",
+                "bitrate": 4000.0,
+                "width": 2560,
+                "height": 1440,
+                "fps": 30.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 4.0,
+            "CI": 0.277180764869935
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Sparks_cut_13_6000kbps_1440p_30.0fps_h264",
+                "SRC": "Sparks_cut_13",
+                "bitrate": 6000.0,
+                "width": 2560,
+                "height": 1440,
+                "fps": 30.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 4.04,
+            "CI": 0.239511555161121
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Sparks_cut_13_6000kbps_1440p_59.94fps_h264",
+                "SRC": "Sparks_cut_13",
+                "bitrate": 6000.0,
+                "width": 2560,
+                "height": 1440,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 4.24,
+            "CI": 0.283574572167294
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Sparks_cut_13_8000kbps_1440p_59.94fps_h264",
+                "SRC": "Sparks_cut_13",
+                "bitrate": 8000.0,
+                "width": 2560,
+                "height": 1440,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 4.4,
+            "CI": 0.25303026237633197
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Sparks_cut_13_6000kbps_2160p_30.0fps_h264",
+                "SRC": "Sparks_cut_13",
+                "bitrate": 6000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 30.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 3.88,
+            "CI": 0.3263992309436161
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Sparks_cut_13_8000kbps_2160p_30.0fps_h264",
+                "SRC": "Sparks_cut_13",
+                "bitrate": 8000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 30.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 4.2,
+            "CI": 0.27718076486993604
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Sparks_cut_13_8000kbps_2160p_59.94fps_h264",
+                "SRC": "Sparks_cut_13",
+                "bitrate": 8000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 4.36,
+            "CI": 0.22289653970914491
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Sparks_cut_13_15000kbps_2160p_59.94fps_h264",
+                "SRC": "Sparks_cut_13",
+                "bitrate": 15000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 4.44,
+            "CI": 0.279022517787963
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Sparks_cut_15_200kbps_360p_15.0fps_h264",
+                "SRC": "Sparks_cut_15",
+                "bitrate": 200.0,
+                "width": 640,
+                "height": 360,
+                "fps": 15.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 1.04,
+            "CI": 0.0783985593816022
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Sparks_cut_15_500kbps_360p_15.0fps_h264",
+                "SRC": "Sparks_cut_15",
+                "bitrate": 500.0,
+                "width": 640,
+                "height": 360,
+                "fps": 15.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 1.48,
+            "CI": 0.229686818234887
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Sparks_cut_15_500kbps_360p_24.0fps_h264",
+                "SRC": "Sparks_cut_15",
+                "bitrate": 500.0,
+                "width": 640,
+                "height": 360,
+                "fps": 24.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 1.44,
+            "CI": 0.2285691141896469
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Sparks_cut_15_1000kbps_360p_24.0fps_h264",
+                "SRC": "Sparks_cut_15",
+                "bitrate": 1000.0,
+                "width": 640,
+                "height": 360,
+                "fps": 24.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 1.92,
+            "CI": 0.297673731005404
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Sparks_cut_15_500kbps_480p_15.0fps_h264",
+                "SRC": "Sparks_cut_15",
+                "bitrate": 500.0,
+                "width": 854,
+                "height": 480,
+                "fps": 15.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 1.4,
+            "CI": 0.226317146815234
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Sparks_cut_15_1000kbps_480p_15.0fps_h264",
+                "SRC": "Sparks_cut_15",
+                "bitrate": 1000.0,
+                "width": 854,
+                "height": 480,
+                "fps": 15.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 2.08,
+            "CI": 0.297673731005404
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Sparks_cut_15_1000kbps_480p_24.0fps_h264",
+                "SRC": "Sparks_cut_15",
+                "bitrate": 1000.0,
+                "width": 854,
+                "height": 480,
+                "fps": 24.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 2.12,
+            "CI": 0.30615616150085306
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Sparks_cut_15_2000kbps_480p_24.0fps_h264",
+                "SRC": "Sparks_cut_15",
+                "bitrate": 2000.0,
+                "width": 854,
+                "height": 480,
+                "fps": 24.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 2.6,
+            "CI": 0.277180764869935
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Sparks_cut_15_1000kbps_720p_24.0fps_h264",
+                "SRC": "Sparks_cut_15",
+                "bitrate": 1000.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 24.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 1.72,
+            "CI": 0.265862449963833
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Sparks_cut_15_2000kbps_720p_24.0fps_h264",
+                "SRC": "Sparks_cut_15",
+                "bitrate": 2000.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 24.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 2.64,
+            "CI": 0.33720495413404905
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Sparks_cut_15_2000kbps_720p_30.0fps_h264",
+                "SRC": "Sparks_cut_15",
+                "bitrate": 2000.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 30.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 2.64,
+            "CI": 0.317651252723642
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Sparks_cut_15_4000kbps_720p_30.0fps_h264",
+                "SRC": "Sparks_cut_15",
+                "bitrate": 4000.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 30.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 3.32,
+            "CI": 0.29334054882260696
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Sparks_cut_15_2000kbps_1080p_24.0fps_h264",
+                "SRC": "Sparks_cut_15",
+                "bitrate": 2000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 24.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 2.68,
+            "CI": 0.35279351721721003
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Sparks_cut_15_4000kbps_1080p_24.0fps_h264",
+                "SRC": "Sparks_cut_15",
+                "bitrate": 4000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 24.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 3.12,
+            "CI": 0.363519165150722
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Sparks_cut_15_4000kbps_1080p_30.0fps_h264",
+                "SRC": "Sparks_cut_15",
+                "bitrate": 4000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 30.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 3.32,
+            "CI": 0.31440982859827304
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Sparks_cut_15_6000kbps_1080p_30.0fps_h264",
+                "SRC": "Sparks_cut_15",
+                "bitrate": 6000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 30.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 3.76,
+            "CI": 0.3628139866687229
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Sparks_cut_15_4000kbps_1440p_30.0fps_h264",
+                "SRC": "Sparks_cut_15",
+                "bitrate": 4000.0,
+                "width": 2560,
+                "height": 1440,
+                "fps": 30.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 3.08,
+            "CI": 0.297673731005404
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Sparks_cut_15_6000kbps_1440p_30.0fps_h264",
+                "SRC": "Sparks_cut_15",
+                "bitrate": 6000.0,
+                "width": 2560,
+                "height": 1440,
+                "fps": 30.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 3.68,
+            "CI": 0.29334054882260696
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Sparks_cut_15_6000kbps_1440p_59.94fps_h264",
+                "SRC": "Sparks_cut_15",
+                "bitrate": 6000.0,
+                "width": 2560,
+                "height": 1440,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 3.16,
+            "CI": 0.369805264993227
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Sparks_cut_15_8000kbps_1440p_59.94fps_h264",
+                "SRC": "Sparks_cut_15",
+                "bitrate": 8000.0,
+                "width": 2560,
+                "height": 1440,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 3.36,
+            "CI": 0.274394957835608
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Sparks_cut_15_6000kbps_2160p_30.0fps_h264",
+                "SRC": "Sparks_cut_15",
+                "bitrate": 6000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 30.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 3.4,
+            "CI": 0.35783882874343104
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Sparks_cut_15_8000kbps_2160p_30.0fps_h264",
+                "SRC": "Sparks_cut_15",
+                "bitrate": 8000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 30.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 3.76,
+            "CI": 0.3628139866687229
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Sparks_cut_15_8000kbps_2160p_59.94fps_h264",
+                "SRC": "Sparks_cut_15",
+                "bitrate": 8000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 3.36,
+            "CI": 0.317651252723642
+        },
+        {
+            "PVS": {
+                "PVS_ID": "Sparks_cut_15_15000kbps_2160p_59.94fps_h264",
+                "SRC": "Sparks_cut_15",
+                "bitrate": 15000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le"
+            },
+            "MOS": 4.04,
+            "CI": 0.239511555161121
+        },
+        {
+            "PVS": {
+                "PVS_ID": "venice_harmonic_2_cropped_8s_200kbps_360p_15.0fps_h264",
+                "SRC": "venice_harmonic_2_cropped_8s",
+                "bitrate": 200.0,
+                "width": 640,
+                "height": 360,
+                "fps": 15.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 2
+            },
+            "MOS": 1.08,
+            "CI": 0.108537890696269
+        },
+        {
+            "PVS": {
+                "PVS_ID": "venice_harmonic_2_cropped_8s_500kbps_360p_15.0fps_h264",
+                "SRC": "venice_harmonic_2_cropped_8s",
+                "bitrate": 500.0,
+                "width": 640,
+                "height": 360,
+                "fps": 15.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 2
+            },
+            "MOS": 1.52,
+            "CI": 0.25604862273895
+        },
+        {
+            "PVS": {
+                "PVS_ID": "venice_harmonic_2_cropped_8s_500kbps_360p_24.0fps_h264",
+                "SRC": "venice_harmonic_2_cropped_8s",
+                "bitrate": 500.0,
+                "width": 640,
+                "height": 360,
+                "fps": 24.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 2
+            },
+            "MOS": 1.64,
+            "CI": 0.22289653970914491
+        },
+        {
+            "PVS": {
+                "PVS_ID": "venice_harmonic_2_cropped_8s_1000kbps_360p_24.0fps_h264",
+                "SRC": "venice_harmonic_2_cropped_8s",
+                "bitrate": 1000.0,
+                "width": 640,
+                "height": 360,
+                "fps": 24.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 2
+            },
+            "MOS": 1.84,
+            "CI": 0.31359423752640897
+        },
+        {
+            "PVS": {
+                "PVS_ID": "venice_harmonic_2_cropped_8s_500kbps_480p_15.0fps_h264",
+                "SRC": "venice_harmonic_2_cropped_8s",
+                "bitrate": 500.0,
+                "width": 854,
+                "height": 480,
+                "fps": 15.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 2
+            },
+            "MOS": 2.12,
+            "CI": 0.28447624239871
+        },
+        {
+            "PVS": {
+                "PVS_ID": "venice_harmonic_2_cropped_8s_1000kbps_480p_15.0fps_h264",
+                "SRC": "venice_harmonic_2_cropped_8s",
+                "bitrate": 1000.0,
+                "width": 854,
+                "height": 480,
+                "fps": 15.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 2
+            },
+            "MOS": 2.16,
+            "CI": 0.24479942320771197
+        },
+        {
+            "PVS": {
+                "PVS_ID": "venice_harmonic_2_cropped_8s_1000kbps_480p_24.0fps_h264",
+                "SRC": "venice_harmonic_2_cropped_8s",
+                "bitrate": 1000.0,
+                "width": 854,
+                "height": 480,
+                "fps": 24.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 2
+            },
+            "MOS": 2.36,
+            "CI": 0.29681215544726597
+        },
+        {
+            "PVS": {
+                "PVS_ID": "venice_harmonic_2_cropped_8s_2000kbps_480p_24.0fps_h264",
+                "SRC": "venice_harmonic_2_cropped_8s",
+                "bitrate": 2000.0,
+                "width": 854,
+                "height": 480,
+                "fps": 24.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 2
+            },
+            "MOS": 2.68,
+            "CI": 0.245843348724862
+        },
+        {
+            "PVS": {
+                "PVS_ID": "venice_harmonic_2_cropped_8s_1000kbps_720p_24.0fps_h264",
+                "SRC": "venice_harmonic_2_cropped_8s",
+                "bitrate": 1000.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 24.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 2
+            },
+            "MOS": 2.84,
+            "CI": 0.29246620843120097
+        },
+        {
+            "PVS": {
+                "PVS_ID": "venice_harmonic_2_cropped_8s_2000kbps_720p_24.0fps_h264",
+                "SRC": "venice_harmonic_2_cropped_8s",
+                "bitrate": 2000.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 24.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 2
+            },
+            "MOS": 3.4,
+            "CI": 0.320060778423687
+        },
+        {
+            "PVS": {
+                "PVS_ID": "venice_harmonic_2_cropped_8s_2000kbps_720p_30.0fps_h264",
+                "SRC": "venice_harmonic_2_cropped_8s",
+                "bitrate": 2000.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 30.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 2
+            },
+            "MOS": 3.32,
+            "CI": 0.270635945225133
+        },
+        {
+            "PVS": {
+                "PVS_ID": "venice_harmonic_2_cropped_8s_4000kbps_720p_30.0fps_h264",
+                "SRC": "venice_harmonic_2_cropped_8s",
+                "bitrate": 4000.0,
+                "width": 1280,
+                "height": 720,
+                "fps": 30.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 2
+            },
+            "MOS": 3.68,
+            "CI": 0.29334054882260696
+        },
+        {
+            "PVS": {
+                "PVS_ID": "venice_harmonic_2_cropped_8s_2000kbps_1080p_24.0fps_h264",
+                "SRC": "venice_harmonic_2_cropped_8s",
+                "bitrate": 2000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 24.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 2
+            },
+            "MOS": 3.56,
+            "CI": 0.30109538051650897
+        },
+        {
+            "PVS": {
+                "PVS_ID": "venice_harmonic_2_cropped_8s_4000kbps_1080p_24.0fps_h264",
+                "SRC": "venice_harmonic_2_cropped_8s",
+                "bitrate": 4000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 24.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 2
+            },
+            "MOS": 4.0,
+            "CI": 0.33947572022285105
+        },
+        {
+            "PVS": {
+                "PVS_ID": "venice_harmonic_2_cropped_8s_4000kbps_1080p_30.0fps_h264",
+                "SRC": "venice_harmonic_2_cropped_8s",
+                "bitrate": 4000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 30.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 2
+            },
+            "MOS": 4.36,
+            "CI": 0.317651252723642
+        },
+        {
+            "PVS": {
+                "PVS_ID": "venice_harmonic_2_cropped_8s_6000kbps_1080p_30.0fps_h264",
+                "SRC": "venice_harmonic_2_cropped_8s",
+                "bitrate": 6000.0,
+                "width": 1920,
+                "height": 1080,
+                "fps": 30.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 2
+            },
+            "MOS": 4.52,
+            "CI": 0.229686818234887
+        },
+        {
+            "PVS": {
+                "PVS_ID": "venice_harmonic_2_cropped_8s_4000kbps_1440p_30.0fps_h264",
+                "SRC": "venice_harmonic_2_cropped_8s",
+                "bitrate": 4000.0,
+                "width": 2560,
+                "height": 1440,
+                "fps": 30.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 2
+            },
+            "MOS": 4.6,
+            "CI": 0.19599639845400504
+        },
+        {
+            "PVS": {
+                "PVS_ID": "venice_harmonic_2_cropped_8s_6000kbps_1440p_30.0fps_h264",
+                "SRC": "venice_harmonic_2_cropped_8s",
+                "bitrate": 6000.0,
+                "width": 2560,
+                "height": 1440,
+                "fps": 30.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 2
+            },
+            "MOS": 4.64,
+            "CI": 0.22289653970914491
+        },
+        {
+            "PVS": {
+                "PVS_ID": "venice_harmonic_2_cropped_8s_6000kbps_1440p_59.94fps_h264",
+                "SRC": "venice_harmonic_2_cropped_8s",
+                "bitrate": 6000.0,
+                "width": 2560,
+                "height": 1440,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 2
+            },
+            "MOS": 4.64,
+            "CI": 0.192036467054212
+        },
+        {
+            "PVS": {
+                "PVS_ID": "venice_harmonic_2_cropped_8s_8000kbps_1440p_59.94fps_h264",
+                "SRC": "venice_harmonic_2_cropped_8s",
+                "bitrate": 8000.0,
+                "width": 2560,
+                "height": 1440,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 2
+            },
+            "MOS": 4.64,
+            "CI": 0.24997545909540306
+        },
+        {
+            "PVS": {
+                "PVS_ID": "venice_harmonic_2_cropped_8s_6000kbps_2160p_30.0fps_h264",
+                "SRC": "venice_harmonic_2_cropped_8s",
+                "bitrate": 6000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 30.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 2
+            },
+            "MOS": 4.52,
+            "CI": 0.301944734476042
+        },
+        {
+            "PVS": {
+                "PVS_ID": "venice_harmonic_2_cropped_8s_8000kbps_2160p_30.0fps_h264",
+                "SRC": "venice_harmonic_2_cropped_8s",
+                "bitrate": 8000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 30.0,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 2
+            },
+            "MOS": 4.64,
+            "CI": 0.192036467054212
+        },
+        {
+            "PVS": {
+                "PVS_ID": "venice_harmonic_2_cropped_8s_8000kbps_2160p_59.94fps_h264",
+                "SRC": "venice_harmonic_2_cropped_8s",
+                "bitrate": 8000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 2
+            },
+            "MOS": 4.72,
+            "CI": 0.240578427056802
+        },
+        {
+            "PVS": {
+                "PVS_ID": "venice_harmonic_2_cropped_8s_15000kbps_2160p_59.94fps_h264",
+                "SRC": "venice_harmonic_2_cropped_8s",
+                "bitrate": 15000.0,
+                "width": 3840,
+                "height": 2160,
+                "fps": 59.94,
+                "encoder": "h264",
+                "yuv_fmt": "yuv422p10le",
+                "duration": 2
+            },
+            "MOS": 4.8,
+            "CI": 0.160030389211844
+        }
+    ]
+}

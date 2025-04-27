@@ -1,0 +1,151 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "type": "object",
+    "properties": {
+        "IMAGE_NAME": { "type": "string" ,"description": "The name of the podman image to use"},
+        "INPUT_REF_DIR": { "type": "string" , "description": "The path where reference videos can be found"},
+        "INPUT_DIST_DIR": { "type": "string" , "description": "The path where the distorted videos can be found"},
+        "OUTPUT_DIR": { "type": "string" , "description": "The path where the results are saved"},
+        "HASH_DIR": { "type": "string" , "description": "The path where the hash files will be saved"},
+        "MOS_DIR": { "type": "string" , "description": "The path where MOS description file can be found"},
+        "DATASET_DIR": { "type": "string" , "description": "The path where datasets description files can be found"},
+        "REFERENCE_VIDEO_LIST_DIR": { "type": "string" , "description": "The path where the original video file list description files can be found"},
+        "JSON_DIR": { "type": "string" , "description": "The path where json config file can be found"},
+        "ORIGINAL_VIDEO": { "type": "string", "description": "The video chosen to be analyzed" },
+        "MODEL_VERSION": {
+            "type": "array",
+            "description": "The list of vmaf models to be used. There are nine possible models to choose from. VMAF_ALL for all nine models",
+            "items": {
+              "type": "string",
+              "enum": [
+                "vmaf_v0.6.1.json",
+                "vmaf_v0.6.1neg.json",
+                "vmaf_float_v0.6.1.json",
+                "vmaf_float_v0.6.1neg.json",
+                "vmaf_float_b_v0.6.3.json",
+                "vmaf_b_v0.6.3.json",
+                "vmaf_float_4k_v0.6.1.json",
+                "vmaf_4k_v0.6.1.json",
+                "vmaf_4k_v0.6.1neg.json",
+                "VMAF_ALL"
+              ]
+            },
+            "minItems": 1,
+            "uniqueItems": true
+          },
+        "DATASET": {
+             "type": "string", 
+             "description": "The name of the dataset" ,
+            "enum": [
+                "KUGVD",
+                "AVT-VQDB-UHD-1_1",
+                "AVT-VQDB-UHD-1_2",
+                "AVT-VQDB-UHD-1_3",
+                "AVT-VQDB-UHD-1_4",
+                "GamingVideoSet1",
+                "GamingVideoSet2",
+                "AGH_NTIA_Dolby",
+                "ITS4S"
+            ]
+        },
+        "FEATURES": {
+            "type": "array",
+            "description": "The different metrics that vmaf will calculate",
+            "items": { 
+                "type": "string",
+                "enum": [
+                    "cambi",
+                    "float_ssim",
+                    "psnr",
+                    "float_ms_ssim",
+                    "ciede",
+                    "psnr_hvs"
+                ]
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
+        "USE_LIBVMAF": {
+            "type": "boolean",
+            "description": "Indicates if libvmaf should be used for video quality assessment"
+        },
+        "USE_ESSIM": {
+            "type": "boolean",
+            "description": "Indicates if eSSIM should be used for video quality assessment"
+        },
+       "ESSIM_PARAMETERS": {
+        "type": "array",
+        "description": "Array of eSSIM parameter configurations",
+        "items": {
+            "type": "object",
+            "properties": {
+            "Window_size": {
+                "type": "string",
+                "default": "8",
+                "description": "Window size for eSSIM (can be 8 or 16). Default is 8",
+                "enum": ["8", "16"]
+            },
+            "Window_stride": {
+                "type": "string",
+                "default": "4",
+                "description": "Window stride for eSSIM (can be 4, 8, 16). Default is 4",
+                "enum": ["4", "8", "16"]
+            },
+            "SSIM_Minkowski_pooling": {
+                "type": "string",
+                "default": "3",
+                "description": "SSIM Minkowski pooling (can be 3 or 4). Default is 3",
+                "enum": ["3", "4"]
+            },
+            "Mode": {
+                "type": "string",
+                "default": "2",
+                "description": "Mode : Can be 0 -> SSIM_MODE_REF, 1 -> SSIM_MODE_INT, 2 -> SSIM_MODE_PERF. Default is 2",
+                "enum": ["0", "1", "2"]
+            }
+            },
+            "required": ["Window_size", "Window_stride", "SSIM_Minkowski_pooling", "Mode"],
+            "additionalProperties": false
+      },
+      "uniqueItems": true
+    }
+  },
+    "required": ["IMAGE_NAME", "INPUT_REF_DIR", "INPUT_DIST_DIR", "OUTPUT_DIR", "HASH_DIR","MOS_DIR","DATASET_DIR","REFERENCE_VIDEO_LIST_DIR","JSON_DIR", "ORIGINAL_VIDEO", "MODEL_VERSION", "DATASET", "FEATURES","USE_LIBVMAF","USE_ESSIM","ESSIM_PARAMETERS"],
+    "dependencies": {
+        "FEATURES": {
+            "oneOf": [
+                {
+                    "properties": {
+                        "USE_LIBVMAF": { "const": true }
+                    },
+                    "required": ["FEATURES"]
+                },
+                {
+                    "properties": {
+                        "USE_LIBVMAF": { "const": false }
+                    }
+                }
+            ]
+        },
+        "USE_ESSIM": {
+            "oneOf": [
+                {
+                    "properties": {
+                        "USE_ESSIM": { "const": true },
+                        "ESSIM_PARAMETERS": { "type": "array", "minItems": 1, "uniqueItems": true }
+
+                    },
+                    "required": ["ESSIM_PARAMETERS"]
+                },
+                {
+                    "properties": {
+                        "USE_ESSIM": { "const": false },
+                        "ESSIM_PARAMETERS": { "type": "array", "maxItems": 0 }
+                    }                    
+                }
+            ]
+        }
+    },
+    "additionalProperties": false
+}
+

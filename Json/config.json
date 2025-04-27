@@ -1,0 +1,46 @@
+{
+    "IMAGE_NAME": "image",
+    "INPUT_REF_DIR": "/home/roberto/Scaricati/Tesi/Lavorosullatesi/Tesi/Referencevideos",
+    "INPUT_DIST_DIR": "/home/roberto/Scaricati/Tesi/Lavorosullatesi/Tesi/Distortedvideos",
+    "OUTPUT_DIR": "/home/roberto/Scaricati/Tesi/Lavorosullatesi/Tesi/Result",
+    "HASH_DIR": "/home/roberto/Scaricati/Tesi/Lavorosullatesi/Tesi/Hash",
+    "MOS_DIR": "/home/roberto/Scaricati/Tesi/Lavorosullatesi/Tesi/Mos",
+    "DATASET_DIR": "/home/roberto/Scaricati/Tesi/Lavorosullatesi/Tesi/Dataset",
+    "REFERENCE_VIDEO_LIST_DIR": "/home/roberto/Scaricati/Tesi/Lavorosullatesi/Tesi/Reference_video_list_dir",
+    "JSON_DIR": "/home/roberto/Scaricati/Tesi/Lavorosullatesi/Tesi/Json",
+    "ORIGINAL_VIDEO": "Overwatch_30fps_30sec_v2.yuv",
+    "MODEL_VERSION": [
+        "VMAF_ALL"
+    ],
+    "DATASET": "KUGVD",
+    "FEATURES": [
+        "cambi",
+        "float_ssim",
+        "psnr",
+        "float_ms_ssim",
+        "ciede",
+        "psnr_hvs"
+    ],
+    "USE_LIBVMAF": true,
+    "USE_ESSIM": true,
+    "ESSIM_PARAMETERS": [
+        {
+            "Window_size": "8",
+            "Window_stride": "4",
+            "SSIM_Minkowski_pooling": "3",
+            "Mode": "2"
+        },
+        {
+            "Window_size": "16",
+            "Window_stride": "8",
+            "SSIM_Minkowski_pooling": "4",
+            "Mode": "1"
+        },
+        {
+            "Window_size": "8",
+            "Window_stride": "16",
+            "SSIM_Minkowski_pooling": "3",
+            "Mode": "0"
+        }
+    ]
+}
