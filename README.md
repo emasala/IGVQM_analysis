@@ -12,7 +12,8 @@ Fix directories in `Json/config.json`, including image id generated at the next 
    python3 run_simulation_create_commands.py Json/config.json
    python3 run_vmaf_simulation.py Json/config.json
    ./run_create_csv.sh
-    ```
+   ```
+
 Look in the following dir for results: {output_dir}/{dataset}/combined_results_{dataset}.csv
 
 ## Detailed instructions
