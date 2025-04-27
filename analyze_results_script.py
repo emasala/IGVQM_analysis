@@ -101,7 +101,7 @@ for filename in os.listdir(essim_dir):
                 width_new, height_new = width_old, height_old
         else:
             print(f"File {file_name} format is wrong")
-        command_essim = f"python3 analyze.py {dataset} {width_new} {height_new} {bitrate} {video_codec} {model_version} {result_dir} {original_video} {distorted_video} {width_old} {height_old} {fps} {duration} {mos_dir} {use_libvmaf} {use_essim} {essim_params_string}"
+        command_essim = f"python3 analyze.py {dataset} {width_new} {height_new} {bitrate} {video_codec} {model_version} {result_dir} '{original_video}' '{distorted_video}' {width_old} {height_old} {fps} {duration} {mos_dir} {use_libvmaf} {use_essim} {essim_params_string}"
         print(command_essim)
         subprocess.run(command_essim, shell=True, check=True)
         

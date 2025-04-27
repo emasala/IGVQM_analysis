@@ -78,7 +78,8 @@ echo "Input distorted file: $distorted"
 mkdir -p "$HASH_DIR/${DATASET}"
 #output hash name
 output_hash="$HASH_DIR/${DATASET}/${distorted}_decoded.md5"
-if [[ "$DATASET" == "ITS4S" ]] || [[ "$DATASET" == "AGH_NTIA_Dolby" ]]; then
+##if [[ "$DATASET" == "ITS4S" ]] || [[ "$DATASET" == "AGH_NTIA_Dolby" ]]; then
+if [[ "$DATASET" == "AGH_NTIA_Dolby" ]]; then
     # If dataset is AGH_NTIA_Dolby or ITS4S, set decoded file extension to .y4m
     distorted_decoded="$OUTPUT_DIR/${distorted}_decoded.y4m"
 else
@@ -87,10 +88,11 @@ else
 fi
 #"ITS4S has the original video in 4:2:2 and the distorted video in 4:2:0: convert the reference video to 4:2:0."
 if [[ "$DATASET" == "ITS4S" ]]; then
-    original_converted_to420p="$OUTPUT_DIR/${original}_420p.y4m"
+    #original_converted_to420p="$OUTPUT_DIR/${original}_420p.y4m"
+    original_converted_to420p="$OUTPUT_DIR/${original}_420p.yuv"
     if [[ ! -f "$original_converted_to420p" ]]; then
         ffmpeg -i "$INPUT_REFERENCE_DIR/$original" -pix_fmt yuv420p "$original_converted_to420p" -loglevel quiet
-        echo "OriginalConvertedtoy4m: $original_converted_to420p"
+        echo "OriginalConvertedtoyuv: $original_converted_to420p"
     fi
 fi
 #AVT-VQDB-UHD-1_1 has one original video with 8-bit depth, and the others have 10-bit depth.
@@ -135,7 +137,8 @@ echo "fps conversion done"
 # Print the name of the decoded file
 echo "Decoded file: $distorted_decoded"
 # Output Resized YUV : file name of decoded file resized.
-if [[ "$DATASET" == "ITS4S" ]] || [[ "$DATASET" == "AGH_NTIA_Dolby" ]]; then
+#if [[ "$DATASET" == "ITS4S" ]] || [[ "$DATASET" == "AGH_NTIA_Dolby" ]]; then
+if [[ "$DATASET" == "AGH_NTIA_Dolby" ]]; then
  distorted_decoded_resized="$OUTPUT_DIR/${distorted}_decoded_resized.y4m"
 else
  distorted_decoded_resized="$OUTPUT_DIR/${distorted}_decoded_resized.yuv"
@@ -227,7 +230,7 @@ if [[ "$DATASET" == "ITS4S" ]]; then
             echo "distorted_decoded : $distorted_decoded"
             echo "WIDTH : $WIDTH"
             echo "HEIGHT : $HEIGHT"
-            ffmpeg -i "$distorted_decoded" \
+            ffmpeg -f rawvideo -vcodec rawvideo -pix_fmt yuv420p -s ${WIDTH}x${HEIGHT} -i "$distorted_decoded" \
             -vf "scale=1280x720:flags=lanczos" \
             -sws_flags lanczos+accurate_rnd+full_chroma_int \
             -pix_fmt yuv420p "$distorted_decoded_resized"
@@ -456,6 +459,10 @@ if [[ "$USE_LIBVMAF" == "True" ]]; then
             /vmaf-3.0.0/libvmaf/build/tools/vmaf \
             --reference "$original_converted_to420p" \
             --distorted "$final_decoded_file" \
+            --width "$width_new" \
+            --height "$height_new" \
+            --pixel_format "420" \
+            --bitdepth "$BIT_DEPTH" \
             --model "$path" \
             $feature_args \
             --output "$output_json" --json \
@@ -552,6 +559,10 @@ if [[ "$USE_LIBVMAF" == "True" ]]; then
             /vmaf-3.0.0/libvmaf/build/tools/vmaf \
             --reference "$original_converted_to420p" \
             --distorted "$final_decoded_file" \
+            --width "$width_new" \
+            --height "$height_new" \
+            --pixel_format "420" \
+            --bitdepth "$BIT_DEPTH" \
             --model "$path" \
             --output "$output_json" --json \
             --threads "$(nproc)"
@@ -696,7 +707,8 @@ if [[ "$USE_ESSIM" == "True" ]]; then
             final_original_file_essim="$OUTPUT_DIR/${original%.*}.yuv"     
             final_decoded_file_essim="${final_decoded_file%.*}.yuv"
             if [ ! -f "$final_original_file_essim" ]; then
-                ffmpeg -i "$original_converted_to420p" -f rawvideo -pix_fmt yuv420p "$final_original_file_essim"
+                #ffmpeg -i "$original_converted_to420p" -f rawvideo -pix_fmt yuv420p "$final_original_file_essim"
+		cp "$original_converted_to420p" "$final_original_file_essim"
             else 
                 echo "File already exists: $final_original_file_essim"
             fi
