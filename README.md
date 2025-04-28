@@ -126,3 +126,4 @@ Example template:
 # Acknowledgments
 
 These scripts / software have been originally developed in the context of this thesis work: [https://github.com/robertogreco99/Tesi](https://github.com/robertogreco99/Tesi)
+Link to thesis document (in Italian): [https://webthesis.biblio.polito.it/35319/](https://webthesis.biblio.polito.it/35319/)
